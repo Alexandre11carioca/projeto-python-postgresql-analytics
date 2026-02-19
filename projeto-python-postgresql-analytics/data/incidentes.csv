@@ -1,0 +1,801 @@
+id,data_abertura,data_fechamento,sistema,tipo_incidente,prioridade,status,tempo_resolucao_min,sla_min,sla_estourado,time_responsavel,canal_deteccao,impacto
+1,2025-07-02 03:13:50,2025-07-02 03:50:50,CRM,Indisponibilidade,P4,Resolvido,37,720,0,Engenharia,Service Desk,1
+2,2025-07-02 05:32:59,,BI/Analytics,Fila/Backlog,P2,Em andamento,133,240,0,Dados,Prometheus,3
+3,2025-07-02 12:15:12,2025-07-02 13:16:12,Email,Timeout,P3,Resolvido,61,480,0,Dados,Cliente,2
+4,2025-07-02 15:23:55,,ERP,Fila/Backlog,P3,Em andamento,73,480,0,Engenharia,Prometheus,2
+5,2025-07-02 16:59:35,,BI/Analytics,Erro de autenticação,P2,Em andamento,131,240,0,Dados,Service Desk,3
+6,2025-07-02 19:43:44,2025-07-02 21:54:44,BI/Analytics,Falha de Job,P2,Resolvido,131,240,0,Produto,Prometheus,3
+7,2025-07-03 07:12:48,2025-07-03 07:51:48,CRM,Erro 5xx,P4,Resolvido,39,720,0,Operações,Grafana Alert,1
+8,2025-07-03 20:30:04,2025-07-03 22:25:04,Email,Timeout,P2,Resolvido,115,240,0,Operações,Zabbix,3
+9,2025-07-04 05:35:50,2025-07-04 06:58:50,ERP,Erro de autenticação,P3,Resolvido,83,480,0,Operações,Zabbix,2
+10,2025-07-05 03:18:54,,BI/Analytics,Indisponibilidade,P3,Aguardando fornecedor,75,480,0,Operações,Service Desk,2
+11,2025-07-05 04:00:32,2025-07-05 06:41:32,Rede/VPN,Fila/Backlog,P2,Resolvido,161,240,0,Produto,Prometheus,3
+12,2025-07-05 12:42:34,,Rede/VPN,Indisponibilidade,P3,Aguardando fornecedor,82,480,0,Engenharia,Zabbix,2
+13,2025-07-05 21:45:07,2025-07-05 23:00:07,ERP,Incidente de Rede,P3,Resolvido,75,480,0,Engenharia,Synthetic Monitor,2
+14,2025-07-06 00:20:09,2025-07-06 02:38:09,BI/Analytics,Fila/Backlog,P2,Resolvido,138,240,0,Engenharia,Zabbix,3
+15,2025-07-06 03:07:54,2025-07-06 03:54:54,ERP,Erro 5xx,P4,Resolvido,47,720,0,Operações,Service Desk,1
+16,2025-07-06 06:27:38,2025-07-06 09:01:38,E-commerce,Erro de autenticação,P2,Resolvido,154,240,0,Engenharia,Service Desk,3
+17,2025-07-06 06:58:19,2025-07-06 12:03:19,E-commerce,Fila/Backlog,P1,Resolvido,305,180,1,Produto,Prometheus,5
+18,2025-07-06 18:25:03,2025-07-06 19:29:03,Email,Erro 5xx,P3,Resolvido,64,480,0,Operações,Grafana Alert,2
+19,2025-07-06 19:45:51,2025-07-06 20:36:51,E-commerce,Erro 5xx,P4,Resolvido,51,720,0,Operações,Zabbix,1
+20,2025-07-08 03:35:37,,BI/Analytics,Erro de autenticação,P1,Aguardando fornecedor,260,180,1,Operações,Service Desk,5
+21,2025-07-08 09:40:50,2025-07-08 12:14:50,Rede/VPN,Erro 5xx,P2,Resolvido,154,240,0,Operações,Prometheus,3
+22,2025-07-08 12:17:03,2025-07-08 13:34:03,ERP,Falha de Job,P3,Resolvido,77,480,0,Engenharia,Prometheus,2
+23,2025-07-09 01:10:13,2025-07-09 02:30:13,ERP,Indisponibilidade,P3,Resolvido,80,480,0,Engenharia,Prometheus,2
+24,2025-07-09 03:41:58,2025-07-09 08:18:58,ERP,Falha de Job,P1,Resolvido,277,180,1,Engenharia,Synthetic Monitor,5
+25,2025-07-09 15:28:35,,Data Pipeline,Erro 5xx,P2,Em andamento,168,240,0,Operações,Cliente,3
+26,2025-07-09 16:18:47,2025-07-09 17:20:47,Email,Fila/Backlog,P3,Resolvido,62,480,0,Engenharia,Synthetic Monitor,2
+27,2025-07-10 15:42:27,2025-07-10 18:13:27,E-commerce,Lentidão,P2,Resolvido,151,240,0,Engenharia,Service Desk,3
+28,2025-07-11 02:04:08,2025-07-11 04:05:08,Email,Erro de autenticação,P2,Resolvido,121,240,0,Operações,Service Desk,3
+29,2025-07-11 03:53:57,2025-07-11 06:17:57,ERP,Falha de Job,P2,Resolvido,144,240,0,Engenharia,Grafana Alert,3
+30,2025-07-11 09:21:43,2025-07-11 10:23:43,Email,Erro 5xx,P3,Resolvido,62,480,0,Produto,Synthetic Monitor,2
+31,2025-07-11 10:03:44,,BI/Analytics,Lentidão,P3,Em andamento,80,480,0,Produto,Service Desk,2
+32,2025-07-12 10:14:48,2025-07-12 10:47:48,Email,Fila/Backlog,P4,Resolvido,33,720,0,Operações,Prometheus,1
+33,2025-07-12 15:12:49,2025-07-12 16:34:49,Rede/VPN,Lentidão,P3,Resolvido,82,480,0,Engenharia,Service Desk,2
+34,2025-07-13 01:19:25,2025-07-13 02:36:25,Email,Erro 5xx,P3,Resolvido,77,480,0,Operações,Service Desk,2
+35,2025-07-13 09:13:50,2025-07-13 10:01:50,ERP,Erro de autenticação,P4,Resolvido,48,720,0,Operações,Zabbix,1
+36,2025-07-13 20:26:29,,E-commerce,Fila/Backlog,P3,Aguardando fornecedor,80,480,0,Operações,Grafana Alert,2
+37,2025-07-14 12:37:46,2025-07-14 14:01:46,E-commerce,Timeout,P3,Resolvido,84,480,0,Dados,Prometheus,2
+38,2025-07-15 04:23:21,2025-07-15 05:13:21,Data Pipeline,Timeout,P4,Resolvido,50,720,0,Operações,Cliente,1
+39,2025-07-15 19:20:04,2025-07-15 21:53:04,Rede/VPN,Falha de Job,P2,Resolvido,153,240,0,Produto,Grafana Alert,3
+40,2025-07-16 01:40:41,2025-07-16 03:01:41,Rede/VPN,Indisponibilidade,P3,Resolvido,81,480,0,Operações,Cliente,2
+41,2025-07-16 10:35:58,,BI/Analytics,Erro 5xx,P3,Cancelado,73,480,0,Dados,Grafana Alert,2
+42,2025-07-16 16:38:07,2025-07-16 21:34:07,E-commerce,Indisponibilidade,P1,Resolvido,296,180,1,Engenharia,Service Desk,5
+43,2025-07-16 18:10:42,2025-07-16 19:36:42,Rede/VPN,Indisponibilidade,P3,Resolvido,86,480,0,Dados,Zabbix,2
+44,2025-07-17 19:29:48,2025-07-17 22:11:48,E-commerce,Lentidão,P2,Resolvido,162,240,0,Operações,Synthetic Monitor,3
+45,2025-07-18 17:04:43,2025-07-18 19:13:43,CRM,Fila/Backlog,P2,Resolvido,129,240,0,Operações,Grafana Alert,3
+46,2025-07-19 08:58:16,2025-07-19 10:19:16,Rede/VPN,Incidente de Rede,P3,Resolvido,81,480,0,Engenharia,Prometheus,2
+47,2025-07-19 09:17:00,2025-07-19 11:35:00,BI/Analytics,Falha de Job,P2,Resolvido,138,240,0,Operações,Prometheus,3
+48,2025-07-19 18:16:53,2025-07-19 19:42:53,Data Pipeline,Timeout,P3,Resolvido,86,480,0,Engenharia,Prometheus,2
+49,2025-07-20 04:38:26,2025-07-20 05:20:26,ERP,Falha de Job,P4,Resolvido,42,720,0,Dados,Grafana Alert,1
+50,2025-07-20 13:52:22,2025-07-20 15:19:22,Data Pipeline,Lentidão,P3,Resolvido,87,480,0,Produto,Service Desk,2
+51,2025-07-20 14:11:09,2025-07-20 16:54:09,ERP,Falha de Job,P2,Resolvido,163,240,0,Dados,Synthetic Monitor,3
+52,2025-07-20 14:27:29,2025-07-20 16:36:29,BI/Analytics,Incidente de Rede,P2,Resolvido,129,240,0,Engenharia,Service Desk,3
+53,2025-07-20 22:32:43,2025-07-21 01:10:43,Rede/VPN,Indisponibilidade,P2,Resolvido,158,240,0,Operações,Service Desk,3
+54,2025-07-21 00:17:20,,E-commerce,Erro de autenticação,P2,Em andamento,154,240,0,Produto,Grafana Alert,3
+55,2025-07-21 08:02:05,2025-07-21 08:42:05,ERP,Falha de Job,P4,Resolvido,40,720,0,Operações,Cliente,1
+56,2025-07-21 08:21:49,2025-07-21 09:49:49,E-commerce,Erro de autenticação,P3,Resolvido,88,480,0,Engenharia,Cliente,2
+57,2025-07-21 16:56:57,2025-07-21 19:17:57,BI/Analytics,Falha de Job,P2,Resolvido,141,240,0,Operações,Prometheus,3
+58,2025-07-21 21:23:11,2025-07-21 22:07:11,API Gateway,Incidente de Rede,P4,Resolvido,44,720,0,Operações,Synthetic Monitor,1
+59,2025-07-21 21:42:25,2025-07-21 23:39:25,Email,Erro de autenticação,P2,Resolvido,117,240,0,Engenharia,Grafana Alert,3
+60,2025-07-22 00:16:25,2025-07-22 05:25:25,Rede/VPN,Indisponibilidade,P1,Resolvido,309,180,1,Operações,Cliente,5
+61,2025-07-22 02:17:30,,Data Pipeline,Erro 5xx,P2,Em andamento,165,240,0,Operações,Synthetic Monitor,3
+62,2025-07-22 09:00:45,2025-07-22 10:22:45,E-commerce,Lentidão,P3,Resolvido,82,480,0,Engenharia,Service Desk,2
+63,2025-07-22 15:36:40,2025-07-22 16:48:40,BI/Analytics,Erro de autenticação,P3,Resolvido,72,480,0,Operações,Zabbix,2
+64,2025-07-22 20:22:46,2025-07-22 22:33:46,CRM,Fila/Backlog,P2,Resolvido,131,240,0,Produto,Service Desk,3
+65,2025-07-22 21:59:25,2025-07-22 22:53:25,Data Pipeline,Erro de autenticação,P4,Resolvido,54,720,0,Operações,Zabbix,1
+66,2025-07-22 23:15:36,2025-07-22 23:58:36,Rede/VPN,Lentidão,P4,Resolvido,43,720,0,Operações,Cliente,1
+67,2025-07-23 01:14:02,,Rede/VPN,Erro 5xx,P4,Em andamento,43,720,0,Operações,Prometheus,1
+68,2025-07-23 01:29:35,2025-07-23 03:39:35,BI/Analytics,Timeout,P2,Resolvido,130,240,0,Engenharia,Service Desk,3
+69,2025-07-23 04:43:57,2025-07-23 09:46:57,E-commerce,Indisponibilidade,P1,Resolvido,303,180,1,Dados,Synthetic Monitor,5
+70,2025-07-23 08:42:17,2025-07-23 09:32:17,Data Pipeline,Lentidão,P4,Resolvido,50,720,0,Operações,Prometheus,1
+71,2025-07-23 13:21:28,2025-07-23 15:52:28,API Gateway,Incidente de Rede,P2,Resolvido,151,240,0,Dados,Grafana Alert,3
+72,2025-07-23 23:51:43,,API Gateway,Indisponibilidade,P3,Em andamento,74,480,0,Engenharia,Service Desk,2
+73,2025-07-24 14:06:32,2025-07-24 15:36:32,ERP,Erro de autenticação,P3,Resolvido,90,480,0,Engenharia,Grafana Alert,2
+74,2025-07-24 23:44:51,2025-07-25 02:15:51,E-commerce,Lentidão,P2,Resolvido,151,240,0,Engenharia,Zabbix,3
+75,2025-07-25 10:11:18,2025-07-25 11:22:18,CRM,Indisponibilidade,P3,Resolvido,71,480,0,Engenharia,Zabbix,2
+76,2025-07-25 13:38:12,2025-07-25 14:23:12,CRM,Erro de autenticação,P4,Resolvido,45,720,0,Engenharia,Grafana Alert,1
+77,2025-07-25 15:00:06,2025-07-25 16:15:06,API Gateway,Fila/Backlog,P3,Resolvido,75,480,0,Produto,Service Desk,2
+78,2025-07-25 18:20:22,2025-07-25 19:46:22,Data Pipeline,Lentidão,P3,Resolvido,86,480,0,Engenharia,Service Desk,2
+79,2025-07-25 23:54:05,2025-07-26 00:42:05,Rede/VPN,Indisponibilidade,P4,Resolvido,48,720,0,Operações,Zabbix,1
+80,2025-07-26 04:32:59,,API Gateway,Lentidão,P3,Aguardando fornecedor,111,480,0,Operações,Grafana Alert,2
+81,2025-07-26 07:42:49,2025-07-26 09:03:49,API Gateway,Timeout,P3,Resolvido,81,480,0,Engenharia,Grafana Alert,2
+82,2025-07-27 09:14:31,2025-07-27 10:12:31,E-commerce,Falha de Job,P4,Resolvido,58,720,0,Operações,Prometheus,1
+83,2025-07-27 13:42:12,2025-07-27 15:18:12,Data Pipeline,Lentidão,P3,Resolvido,96,480,0,Operações,Service Desk,2
+84,2025-07-27 19:02:55,2025-07-27 21:14:55,CRM,Erro 5xx,P2,Resolvido,132,240,0,Operações,Prometheus,3
+85,2025-07-27 21:46:54,,ERP,Erro 5xx,P1,Em andamento,270,180,1,Operações,Service Desk,5
+86,2025-07-28 04:01:57,2025-07-28 06:36:57,API Gateway,Erro 5xx,P2,Resolvido,155,240,0,Engenharia,Synthetic Monitor,3
+87,2025-07-28 09:03:24,2025-07-28 10:17:24,API Gateway,Lentidão,P3,Resolvido,74,480,0,Engenharia,Service Desk,2
+88,2025-07-28 11:41:19,,E-commerce,Indisponibilidade,P3,Em andamento,94,480,0,Produto,Service Desk,2
+89,2025-07-28 13:53:30,2025-07-28 15:22:30,Data Pipeline,Fila/Backlog,P3,Resolvido,89,480,0,Operações,Zabbix,2
+90,2025-07-28 14:00:12,2025-07-28 16:39:12,Data Pipeline,Erro 5xx,P2,Resolvido,159,240,0,Produto,Zabbix,3
+91,2025-07-28 18:40:35,,Rede/VPN,Erro 5xx,P3,Aguardando fornecedor,83,480,0,Produto,Zabbix,2
+92,2025-07-29 06:21:48,2025-07-29 07:12:48,Rede/VPN,Erro 5xx,P4,Resolvido,51,720,0,Engenharia,Service Desk,1
+93,2025-07-29 06:51:35,2025-07-29 09:30:35,Rede/VPN,Incidente de Rede,P2,Resolvido,159,240,0,Engenharia,Cliente,3
+94,2025-07-29 11:25:08,,CRM,Fila/Backlog,P3,Aguardando fornecedor,74,480,0,Produto,Prometheus,2
+95,2025-07-29 11:30:58,,Email,Erro de autenticação,P3,Em andamento,61,480,0,Produto,Prometheus,2
+96,2025-07-29 17:03:40,2025-07-29 18:26:40,Data Pipeline,Lentidão,P3,Resolvido,83,480,0,Dados,Prometheus,2
+97,2025-07-30 07:07:52,2025-07-30 09:35:52,API Gateway,Falha de Job,P2,Resolvido,148,240,0,Engenharia,Service Desk,3
+98,2025-07-30 14:20:52,2025-07-30 15:48:52,Data Pipeline,Incidente de Rede,P3,Resolvido,88,480,0,Produto,Service Desk,2
+99,2025-07-30 16:16:03,,CRM,Indisponibilidade,P4,Em andamento,38,720,0,Produto,Service Desk,1
+100,2025-07-30 17:20:12,2025-07-30 18:56:12,Data Pipeline,Incidente de Rede,P3,Resolvido,96,480,0,Operações,Synthetic Monitor,2
+101,2025-07-31 00:09:58,2025-07-31 00:53:58,Rede/VPN,Timeout,P4,Resolvido,44,720,0,Dados,Prometheus,1
+102,2025-07-31 03:24:10,2025-07-31 04:07:10,BI/Analytics,Indisponibilidade,P4,Resolvido,43,720,0,Operações,Service Desk,1
+103,2025-07-31 09:43:46,,BI/Analytics,Falha de Job,P2,Aguardando fornecedor,136,240,0,Operações,Service Desk,3
+104,2025-07-31 13:59:09,,Data Pipeline,Indisponibilidade,P3,Em andamento,83,480,0,Dados,Prometheus,2
+105,2025-07-31 15:32:54,2025-07-31 16:55:54,Data Pipeline,Indisponibilidade,P3,Resolvido,83,480,0,Engenharia,Synthetic Monitor,2
+106,2025-07-31 16:10:57,2025-07-31 16:47:57,Email,Indisponibilidade,P4,Resolvido,37,720,0,Operações,Zabbix,1
+107,2025-08-01 05:11:12,,CRM,Erro de autenticação,P1,Aguardando fornecedor,267,180,1,Operações,Service Desk,5
+108,2025-08-01 21:05:14,,Email,Fila/Backlog,P3,Aguardando fornecedor,67,480,0,Operações,Service Desk,2
+109,2025-08-02 06:42:22,2025-08-02 07:25:22,Data Pipeline,Erro de autenticação,P4,Resolvido,43,720,0,Engenharia,Synthetic Monitor,1
+110,2025-08-02 10:08:30,2025-08-02 12:22:30,ERP,Indisponibilidade,P2,Resolvido,134,240,0,Operações,Service Desk,3
+111,2025-08-02 10:13:49,2025-08-02 11:33:49,ERP,Lentidão,P3,Resolvido,80,480,0,Dados,Prometheus,2
+112,2025-08-02 10:23:22,2025-08-02 12:21:22,Email,Falha de Job,P2,Resolvido,118,240,0,Dados,Cliente,3
+113,2025-08-02 11:07:11,2025-08-02 11:58:11,ERP,Incidente de Rede,P4,Resolvido,51,720,0,Engenharia,Service Desk,1
+114,2025-08-02 12:46:07,2025-08-02 13:22:07,CRM,Falha de Job,P4,Resolvido,36,720,0,Engenharia,Service Desk,1
+115,2025-08-02 12:54:24,2025-08-02 15:06:24,CRM,Indisponibilidade,P2,Resolvido,132,240,0,Operações,Service Desk,3
+116,2025-08-02 13:24:39,,E-commerce,Falha de Job,P3,Em andamento,87,480,0,Operações,Prometheus,2
+117,2025-08-02 18:32:51,2025-08-02 20:40:51,CRM,Timeout,P2,Resolvido,128,240,0,Engenharia,Service Desk,3
+118,2025-08-03 09:04:44,2025-08-03 10:27:44,Rede/VPN,Fila/Backlog,P3,Resolvido,83,480,0,Operações,Cliente,2
+119,2025-08-03 09:13:16,2025-08-03 10:29:16,ERP,Lentidão,P3,Resolvido,76,480,0,Operações,Prometheus,2
+120,2025-08-03 12:42:38,2025-08-03 13:22:38,Email,Incidente de Rede,P4,Resolvido,40,720,0,Operações,Grafana Alert,1
+121,2025-08-03 21:53:33,2025-08-04 02:15:33,BI/Analytics,Erro de autenticação,P1,Resolvido,262,180,1,Operações,Synthetic Monitor,5
+122,2025-08-04 06:51:28,2025-08-04 09:07:28,CRM,Indisponibilidade,P2,Resolvido,136,240,0,Produto,Cliente,3
+123,2025-08-04 09:13:28,2025-08-04 10:33:28,E-commerce,Lentidão,P3,Resolvido,80,480,0,Engenharia,Cliente,2
+124,2025-08-05 03:32:33,2025-08-05 04:55:33,Data Pipeline,Erro de autenticação,P3,Resolvido,83,480,0,Engenharia,Grafana Alert,2
+125,2025-08-05 03:46:27,,ERP,Indisponibilidade,P3,Em andamento,93,480,0,Engenharia,Synthetic Monitor,2
+126,2025-08-05 08:04:25,2025-08-05 12:11:25,CRM,Erro 5xx,P1,Resolvido,247,180,1,Engenharia,Zabbix,5
+127,2025-08-05 13:29:13,,BI/Analytics,Erro de autenticação,P2,Em andamento,134,240,0,Produto,Service Desk,3
+128,2025-08-05 15:19:09,,BI/Analytics,Incidente de Rede,P4,Em andamento,41,720,0,Engenharia,Grafana Alert,1
+129,2025-08-05 19:05:02,,Email,Indisponibilidade,P1,Em andamento,226,180,1,Engenharia,Cliente,5
+130,2025-08-06 03:49:59,2025-08-06 05:57:59,CRM,Fila/Backlog,P2,Resolvido,128,240,0,Operações,Synthetic Monitor,3
+131,2025-08-06 13:34:53,2025-08-06 14:21:53,Rede/VPN,Incidente de Rede,P4,Resolvido,47,720,0,Dados,Service Desk,1
+132,2025-08-07 06:42:42,2025-08-07 11:52:42,Rede/VPN,Falha de Job,P1,Resolvido,310,180,1,Operações,Service Desk,5
+133,2025-08-07 08:33:12,2025-08-07 09:53:12,API Gateway,Incidente de Rede,P3,Resolvido,80,480,0,Operações,Grafana Alert,2
+134,2025-08-07 09:57:40,2025-08-07 12:30:40,Rede/VPN,Lentidão,P2,Resolvido,153,240,0,Operações,Service Desk,3
+135,2025-08-08 04:32:10,,ERP,Falha de Job,P4,Aguardando fornecedor,59,720,0,Produto,Service Desk,1
+136,2025-08-08 07:23:32,2025-08-08 08:44:32,E-commerce,Incidente de Rede,P3,Resolvido,81,480,0,Produto,Zabbix,2
+137,2025-08-08 07:59:43,,Data Pipeline,Erro 5xx,P4,Em andamento,52,720,0,Engenharia,Service Desk,1
+138,2025-08-08 09:40:50,2025-08-08 12:09:50,E-commerce,Erro de autenticação,P2,Resolvido,149,240,0,Dados,Cliente,3
+139,2025-08-08 12:07:23,2025-08-08 13:27:23,E-commerce,Fila/Backlog,P3,Resolvido,80,480,0,Operações,Service Desk,2
+140,2025-08-08 13:28:48,2025-08-08 14:29:48,Email,Erro de autenticação,P3,Resolvido,61,480,0,Engenharia,Cliente,2
+141,2025-08-08 17:42:18,2025-08-08 20:09:18,BI/Analytics,Erro 5xx,P2,Resolvido,147,240,0,Operações,Grafana Alert,3
+142,2025-08-08 21:51:40,2025-08-09 00:34:40,Data Pipeline,Incidente de Rede,P2,Resolvido,163,240,0,Engenharia,Service Desk,3
+143,2025-08-09 07:11:39,2025-08-09 11:02:39,Email,Incidente de Rede,P1,Resolvido,231,180,1,Operações,Zabbix,5
+144,2025-08-09 13:51:41,2025-08-09 14:30:41,BI/Analytics,Erro de autenticação,P4,Resolvido,39,720,0,Operações,Grafana Alert,1
+145,2025-08-09 17:44:59,2025-08-09 19:04:59,E-commerce,Falha de Job,P3,Resolvido,80,480,0,Engenharia,Grafana Alert,2
+146,2025-08-10 10:22:58,2025-08-10 11:40:58,API Gateway,Erro de autenticação,P3,Resolvido,78,480,0,Engenharia,Prometheus,2
+147,2025-08-10 12:24:13,,API Gateway,Falha de Job,P3,Aguardando fornecedor,88,480,0,Engenharia,Zabbix,2
+148,2025-08-10 15:25:51,2025-08-10 16:35:51,ERP,Fila/Backlog,P3,Resolvido,70,480,0,Engenharia,Service Desk,2
+149,2025-08-10 19:57:54,2025-08-10 20:56:54,Email,Erro de autenticação,P3,Resolvido,59,480,0,Engenharia,Grafana Alert,2
+150,2025-08-10 23:58:16,2025-08-11 01:11:16,API Gateway,Lentidão,P3,Resolvido,73,480,0,Produto,Grafana Alert,2
+151,2025-08-11 00:16:15,2025-08-11 01:31:15,API Gateway,Timeout,P3,Resolvido,75,480,0,Operações,Prometheus,2
+152,2025-08-11 14:09:57,2025-08-11 16:40:57,E-commerce,Erro 5xx,P2,Resolvido,151,240,0,Operações,Service Desk,3
+153,2025-08-11 15:12:49,2025-08-11 15:52:49,E-commerce,Lentidão,P4,Resolvido,40,720,0,Operações,Grafana Alert,1
+154,2025-08-11 22:08:55,,BI/Analytics,Lentidão,P3,Aguardando fornecedor,70,480,0,Operações,Grafana Alert,2
+155,2025-08-12 02:24:54,2025-08-12 04:40:54,ERP,Incidente de Rede,P2,Resolvido,136,240,0,Produto,Service Desk,3
+156,2025-08-12 02:34:59,2025-08-12 03:52:59,E-commerce,Indisponibilidade,P3,Resolvido,78,480,0,Produto,Zabbix,2
+157,2025-08-12 08:26:10,2025-08-12 10:44:10,CRM,Falha de Job,P2,Resolvido,138,240,0,Engenharia,Synthetic Monitor,3
+158,2025-08-12 10:28:30,2025-08-12 11:19:30,Data Pipeline,Falha de Job,P4,Resolvido,51,720,0,Produto,Zabbix,1
+159,2025-08-13 16:02:15,2025-08-13 16:52:15,Data Pipeline,Indisponibilidade,P4,Resolvido,50,720,0,Engenharia,Grafana Alert,1
+160,2025-08-13 22:58:35,2025-08-13 23:43:35,Data Pipeline,Fila/Backlog,P4,Resolvido,45,720,0,Engenharia,Prometheus,1
+161,2025-08-14 14:44:01,2025-08-14 17:01:01,ERP,Fila/Backlog,P2,Resolvido,137,240,0,Operações,Service Desk,3
+162,2025-08-15 03:44:53,2025-08-15 06:14:53,E-commerce,Erro 5xx,P2,Resolvido,150,240,0,Operações,Prometheus,3
+163,2025-08-15 04:46:04,2025-08-15 06:44:04,Email,Timeout,P2,Resolvido,118,240,0,Engenharia,Cliente,3
+164,2025-08-15 13:44:53,2025-08-15 18:59:53,Rede/VPN,Erro de autenticação,P1,Resolvido,315,180,1,Engenharia,Grafana Alert,5
+165,2025-08-16 08:21:02,2025-08-16 11:07:02,Rede/VPN,Erro de autenticação,P2,Resolvido,166,240,0,Operações,Service Desk,3
+166,2025-08-16 09:05:19,2025-08-16 14:19:19,Rede/VPN,Erro de autenticação,P1,Resolvido,314,180,1,Operações,Prometheus,5
+167,2025-08-16 17:46:56,2025-08-16 18:20:56,Email,Falha de Job,P4,Resolvido,34,720,0,Engenharia,Zabbix,1
+168,2025-08-16 22:43:15,2025-08-17 03:17:15,ERP,Timeout,P1,Resolvido,274,180,1,Engenharia,Grafana Alert,5
+169,2025-08-16 22:45:33,2025-08-17 00:54:33,CRM,Erro de autenticação,P2,Resolvido,129,240,0,Operações,Service Desk,3
+170,2025-08-16 22:59:19,,Data Pipeline,Incidente de Rede,P4,Cancelado,48,720,0,Produto,Grafana Alert,1
+171,2025-08-17 00:50:48,2025-08-17 02:18:48,CRM,Falha de Job,P3,Resolvido,88,480,0,Dados,Synthetic Monitor,2
+172,2025-08-18 07:37:05,2025-08-18 08:35:05,Email,Incidente de Rede,P3,Resolvido,58,480,0,Operações,Service Desk,2
+173,2025-08-19 18:48:26,2025-08-19 20:06:26,API Gateway,Timeout,P3,Resolvido,78,480,0,Dados,Synthetic Monitor,2
+174,2025-08-21 19:59:28,,Email,Erro de autenticação,P4,Em andamento,45,720,0,Operações,Prometheus,1
+175,2025-08-22 15:25:52,2025-08-22 16:33:52,BI/Analytics,Falha de Job,P3,Resolvido,68,480,0,Engenharia,Cliente,2
+176,2025-08-22 17:15:54,2025-08-22 18:40:54,Data Pipeline,Erro 5xx,P3,Resolvido,85,480,0,Produto,Service Desk,2
+177,2025-08-22 21:53:34,2025-08-22 23:04:34,BI/Analytics,Erro 5xx,P3,Resolvido,71,480,0,Operações,Service Desk,2
+178,2025-08-23 06:43:29,,Data Pipeline,Erro de autenticação,P3,Em andamento,87,480,0,Dados,Synthetic Monitor,2
+179,2025-08-23 09:49:53,2025-08-23 12:00:53,BI/Analytics,Incidente de Rede,P2,Resolvido,131,240,0,Produto,Service Desk,3
+180,2025-08-23 22:56:57,,CRM,Fila/Backlog,P3,Aguardando fornecedor,73,480,0,Dados,Cliente,2
+181,2025-08-23 23:20:37,2025-08-24 02:10:37,Data Pipeline,Erro de autenticação,P2,Resolvido,170,240,0,Operações,Service Desk,3
+182,2025-08-24 06:34:30,,Data Pipeline,Erro de autenticação,P3,Em andamento,91,480,0,Dados,Zabbix,2
+183,2025-08-24 14:57:51,2025-08-24 17:15:51,ERP,Erro 5xx,P2,Resolvido,138,240,0,Dados,Service Desk,3
+184,2025-08-24 16:25:31,2025-08-24 18:53:31,API Gateway,Timeout,P2,Resolvido,148,240,0,Engenharia,Grafana Alert,3
+185,2025-08-24 20:35:01,2025-08-24 22:47:01,BI/Analytics,Erro 5xx,P2,Resolvido,132,240,0,Operações,Synthetic Monitor,3
+186,2025-08-24 21:44:09,2025-08-24 22:30:09,Rede/VPN,Fila/Backlog,P4,Resolvido,46,720,0,Engenharia,Cliente,1
+187,2025-08-24 22:11:43,2025-08-25 01:04:43,E-commerce,Erro 5xx,P2,Resolvido,173,240,0,Engenharia,Zabbix,3
+188,2025-08-25 09:27:02,2025-08-25 10:37:02,CRM,Erro 5xx,P3,Resolvido,70,480,0,Dados,Zabbix,2
+189,2025-08-25 13:51:27,2025-08-25 14:33:27,E-commerce,Incidente de Rede,P4,Resolvido,42,720,0,Produto,Zabbix,1
+190,2025-08-25 15:38:26,2025-08-25 20:13:26,ERP,Erro 5xx,P1,Resolvido,275,180,1,Operações,Grafana Alert,5
+191,2025-08-25 21:43:26,2025-08-25 22:51:26,BI/Analytics,Indisponibilidade,P3,Resolvido,68,480,0,Operações,Zabbix,2
+192,2025-08-26 13:53:10,,API Gateway,Erro de autenticação,P2,Em andamento,143,240,0,Engenharia,Service Desk,3
+193,2025-08-26 22:50:20,2025-08-27 00:56:20,CRM,Fila/Backlog,P2,Resolvido,126,240,0,Dados,Service Desk,3
+194,2025-08-27 11:58:14,2025-08-27 13:24:14,Data Pipeline,Indisponibilidade,P3,Resolvido,86,480,0,Operações,Cliente,2
+195,2025-08-27 20:35:24,2025-08-27 21:24:24,ERP,Erro 5xx,P4,Resolvido,49,720,0,Engenharia,Prometheus,1
+196,2025-08-27 22:52:45,,CRM,Lentidão,P2,Em andamento,133,240,0,Dados,Service Desk,3
+197,2025-08-28 02:51:26,2025-08-28 04:19:26,Rede/VPN,Fila/Backlog,P3,Resolvido,88,480,0,Operações,Zabbix,2
+198,2025-08-28 18:50:18,2025-08-28 21:26:18,Rede/VPN,Timeout,P2,Resolvido,156,240,0,Operações,Cliente,3
+199,2025-08-29 09:12:49,,BI/Analytics,Incidente de Rede,P3,Aguardando fornecedor,71,480,0,Engenharia,Zabbix,2
+200,2025-08-30 14:01:39,,Data Pipeline,Erro de autenticação,P3,Aguardando fornecedor,89,480,0,Engenharia,Zabbix,2
+201,2025-08-30 21:22:48,2025-08-30 22:38:48,API Gateway,Falha de Job,P3,Resolvido,76,480,0,Operações,Prometheus,2
+202,2025-08-31 03:18:23,2025-08-31 04:21:23,Email,Lentidão,P3,Resolvido,63,480,0,Engenharia,Cliente,2
+203,2025-08-31 16:21:50,2025-08-31 18:39:50,BI/Analytics,Falha de Job,P2,Resolvido,138,240,0,Engenharia,Zabbix,3
+204,2025-08-31 19:40:03,2025-08-31 21:03:03,Rede/VPN,Fila/Backlog,P3,Resolvido,83,480,0,Dados,Service Desk,2
+205,2025-08-31 22:31:13,2025-08-31 23:45:13,BI/Analytics,Falha de Job,P3,Resolvido,74,480,0,Dados,Service Desk,2
+206,2025-09-01 08:04:37,2025-09-01 09:20:37,Email,Falha de Job,P3,Resolvido,76,480,0,Engenharia,Service Desk,2
+207,2025-09-01 18:20:18,2025-09-01 22:41:18,BI/Analytics,Fila/Backlog,P1,Resolvido,261,180,1,Engenharia,Prometheus,5
+208,2025-09-01 20:44:42,2025-09-01 22:08:42,ERP,Erro 5xx,P3,Resolvido,84,480,0,Operações,Zabbix,2
+209,2025-09-02 03:50:27,2025-09-02 05:18:27,Rede/VPN,Fila/Backlog,P3,Resolvido,88,480,0,Engenharia,Grafana Alert,2
+210,2025-09-02 14:03:27,2025-09-02 18:44:27,API Gateway,Falha de Job,P1,Resolvido,281,180,1,Operações,Prometheus,5
+211,2025-09-02 23:55:02,,Data Pipeline,Incidente de Rede,P2,Em andamento,162,240,0,Engenharia,Service Desk,3
+212,2025-09-03 03:49:15,,Rede/VPN,Incidente de Rede,P3,Em andamento,82,480,0,Operações,Prometheus,2
+213,2025-09-03 04:59:52,2025-09-03 06:09:52,BI/Analytics,Lentidão,P3,Resolvido,70,480,0,Engenharia,Grafana Alert,2
+214,2025-09-03 07:00:47,2025-09-03 09:16:47,BI/Analytics,Fila/Backlog,P2,Resolvido,136,240,0,Operações,Zabbix,3
+215,2025-09-03 19:07:42,2025-09-03 19:51:42,CRM,Indisponibilidade,P4,Resolvido,44,720,0,Operações,Service Desk,1
+216,2025-09-04 01:52:19,2025-09-04 03:26:19,Rede/VPN,Timeout,P3,Resolvido,94,480,0,Operações,Prometheus,2
+217,2025-09-04 05:54:34,2025-09-04 07:21:34,Rede/VPN,Incidente de Rede,P3,Resolvido,87,480,0,Engenharia,Service Desk,2
+218,2025-09-04 06:44:43,,CRM,Indisponibilidade,P3,Em andamento,68,480,0,Engenharia,Zabbix,2
+219,2025-09-04 11:43:29,,E-commerce,Timeout,P3,Em andamento,76,480,0,Operações,Synthetic Monitor,2
+220,2025-09-05 00:25:27,,ERP,Incidente de Rede,P3,Em andamento,76,480,0,Dados,Service Desk,2
+221,2025-09-05 01:19:17,,Email,Falha de Job,P4,Em andamento,37,720,0,Dados,Prometheus,1
+222,2025-09-05 10:55:57,,API Gateway,Erro de autenticação,P3,Aguardando fornecedor,80,480,0,Operações,Zabbix,2
+223,2025-09-05 19:12:14,2025-09-05 20:44:14,BI/Analytics,Indisponibilidade,P3,Resolvido,92,480,0,Engenharia,Prometheus,2
+224,2025-09-05 20:27:01,,API Gateway,Incidente de Rede,P3,Aguardando fornecedor,88,480,0,Produto,Zabbix,2
+225,2025-09-05 21:24:39,2025-09-05 22:42:39,BI/Analytics,Incidente de Rede,P3,Resolvido,78,480,0,Operações,Prometheus,2
+226,2025-09-06 05:55:01,2025-09-06 10:37:01,API Gateway,Fila/Backlog,P1,Resolvido,282,180,1,Engenharia,Cliente,5
+227,2025-09-06 11:49:49,2025-09-06 12:51:49,Email,Incidente de Rede,P3,Resolvido,62,480,0,Operações,Service Desk,2
+228,2025-09-07 02:43:48,2025-09-07 03:59:48,ERP,Indisponibilidade,P3,Resolvido,76,480,0,Dados,Zabbix,2
+229,2025-09-07 09:11:05,2025-09-07 09:57:05,Data Pipeline,Fila/Backlog,P4,Resolvido,46,720,0,Dados,Service Desk,1
+230,2025-09-07 12:33:32,2025-09-07 13:40:32,Email,Indisponibilidade,P3,Resolvido,67,480,0,Engenharia,Prometheus,2
+231,2025-09-07 19:06:28,2025-09-07 20:21:28,BI/Analytics,Incidente de Rede,P3,Resolvido,75,480,0,Engenharia,Synthetic Monitor,2
+232,2025-09-07 21:00:29,2025-09-07 21:33:29,Email,Timeout,P4,Resolvido,33,720,0,Engenharia,Zabbix,1
+233,2025-09-08 07:42:25,,ERP,Incidente de Rede,P3,Em andamento,84,480,0,Dados,Service Desk,2
+234,2025-09-08 14:21:35,2025-09-08 16:32:35,CRM,Fila/Backlog,P2,Resolvido,131,240,0,Operações,Service Desk,3
+235,2025-09-08 19:40:56,2025-09-08 21:56:56,ERP,Indisponibilidade,P2,Resolvido,136,240,0,Operações,Zabbix,3
+236,2025-09-08 22:49:09,2025-09-09 03:23:09,ERP,Indisponibilidade,P1,Resolvido,274,180,1,Engenharia,Zabbix,5
+237,2025-09-09 02:32:04,2025-09-09 07:44:04,Rede/VPN,Erro 5xx,P1,Resolvido,312,180,1,Operações,Grafana Alert,5
+238,2025-09-09 12:23:38,2025-09-09 13:54:38,Rede/VPN,Timeout,P3,Resolvido,91,480,0,Operações,Cliente,2
+239,2025-09-09 23:33:59,,Email,Lentidão,P3,Em andamento,62,480,0,Operações,Service Desk,2
+240,2025-09-10 14:39:32,2025-09-10 15:57:32,BI/Analytics,Falha de Job,P3,Resolvido,78,480,0,Engenharia,Service Desk,2
+241,2025-09-10 21:49:54,2025-09-11 03:00:54,Rede/VPN,Lentidão,P1,Resolvido,311,180,1,Operações,Cliente,5
+242,2025-09-10 23:52:55,2025-09-11 00:51:55,Email,Erro de autenticação,P3,Resolvido,59,480,0,Operações,Cliente,2
+243,2025-09-10 23:56:36,2025-09-11 02:13:36,ERP,Lentidão,P2,Resolvido,137,240,0,Operações,Grafana Alert,3
+244,2025-09-11 11:15:26,,E-commerce,Erro de autenticação,P4,Em andamento,54,720,0,Produto,Service Desk,1
+245,2025-09-11 14:52:44,2025-09-11 17:46:44,Data Pipeline,Erro de autenticação,P2,Resolvido,174,240,0,Dados,Service Desk,3
+246,2025-09-11 18:53:26,,BI/Analytics,Indisponibilidade,P3,Em andamento,75,480,0,Operações,Prometheus,2
+247,2025-09-11 22:48:06,2025-09-12 01:21:06,ERP,Fila/Backlog,P2,Resolvido,153,240,0,Engenharia,Cliente,3
+248,2025-09-12 04:05:23,,Data Pipeline,Falha de Job,P3,Em andamento,95,480,0,Engenharia,Zabbix,2
+249,2025-09-12 05:46:26,2025-09-12 07:15:26,Rede/VPN,Incidente de Rede,P3,Resolvido,89,480,0,Operações,Prometheus,2
+250,2025-09-12 07:05:34,,ERP,Erro 5xx,P3,Em andamento,72,480,0,Engenharia,Cliente,2
+251,2025-09-12 13:49:45,,API Gateway,Incidente de Rede,P2,Cancelado,162,240,0,Engenharia,Prometheus,3
+252,2025-09-12 18:34:27,2025-09-12 19:19:27,BI/Analytics,Incidente de Rede,P4,Resolvido,45,720,0,Engenharia,Zabbix,1
+253,2025-09-12 22:39:16,,Rede/VPN,Incidente de Rede,P3,Em andamento,83,480,0,Operações,Prometheus,2
+254,2025-09-13 08:04:59,2025-09-13 09:23:59,E-commerce,Erro 5xx,P3,Resolvido,79,480,0,Operações,Service Desk,2
+255,2025-09-13 09:32:35,2025-09-13 10:15:35,BI/Analytics,Falha de Job,P4,Resolvido,43,720,0,Dados,Cliente,1
+256,2025-09-13 09:38:13,,CRM,Fila/Backlog,P4,Aguardando fornecedor,34,720,0,Engenharia,Zabbix,1
+257,2025-09-13 12:31:45,2025-09-13 14:51:45,BI/Analytics,Indisponibilidade,P2,Resolvido,140,240,0,Dados,Zabbix,3
+258,2025-09-13 22:55:42,2025-09-14 01:01:42,CRM,Erro 5xx,P2,Resolvido,126,240,0,Dados,Grafana Alert,3
+259,2025-09-14 14:11:44,2025-09-14 16:59:44,Data Pipeline,Timeout,P2,Resolvido,168,240,0,Operações,Synthetic Monitor,3
+260,2025-09-14 23:29:43,2025-09-15 01:55:43,API Gateway,Lentidão,P2,Resolvido,146,240,0,Engenharia,Prometheus,3
+261,2025-09-15 04:18:54,,CRM,Erro de autenticação,P3,Em andamento,69,480,0,Produto,Synthetic Monitor,2
+262,2025-09-15 12:40:02,2025-09-15 13:18:02,BI/Analytics,Falha de Job,P4,Resolvido,38,720,0,Engenharia,Cliente,1
+263,2025-09-15 14:31:59,2025-09-15 15:16:59,E-commerce,Lentidão,P4,Resolvido,45,720,0,Operações,Prometheus,1
+264,2025-09-15 22:10:34,2025-09-15 23:42:34,ERP,Erro de autenticação,P3,Resolvido,92,480,0,Operações,Cliente,2
+265,2025-09-16 09:41:42,2025-09-16 11:01:42,CRM,Lentidão,P3,Resolvido,80,480,0,Engenharia,Service Desk,2
+266,2025-09-16 13:04:18,,Rede/VPN,Fila/Backlog,P4,Em andamento,49,720,0,Engenharia,Service Desk,1
+267,2025-09-16 13:20:05,,Email,Lentidão,P4,Em andamento,37,720,0,Engenharia,Grafana Alert,1
+268,2025-09-16 20:31:47,2025-09-16 22:52:47,BI/Analytics,Incidente de Rede,P2,Resolvido,141,240,0,Operações,Cliente,3
+269,2025-09-17 11:18:11,2025-09-17 12:36:11,CRM,Indisponibilidade,P3,Resolvido,78,480,0,Operações,Cliente,2
+270,2025-09-17 15:14:20,2025-09-17 15:55:20,API Gateway,Incidente de Rede,P4,Resolvido,41,720,0,Dados,Service Desk,1
+271,2025-09-18 11:32:43,2025-09-18 14:06:43,E-commerce,Falha de Job,P2,Resolvido,154,240,0,Produto,Synthetic Monitor,3
+272,2025-09-19 11:22:15,2025-09-19 12:44:15,Data Pipeline,Falha de Job,P3,Resolvido,82,480,0,Produto,Grafana Alert,2
+273,2025-09-19 14:52:32,2025-09-19 15:41:32,BI/Analytics,Falha de Job,P4,Resolvido,49,720,0,Engenharia,Cliente,1
+274,2025-09-21 06:00:02,2025-09-21 07:06:02,Rede/VPN,Lentidão,P4,Resolvido,66,720,0,Produto,Cliente,1
+275,2025-09-22 00:34:13,2025-09-22 01:23:13,Data Pipeline,Incidente de Rede,P4,Resolvido,49,720,0,Engenharia,Prometheus,1
+276,2025-09-22 16:50:22,2025-09-22 18:02:22,API Gateway,Fila/Backlog,P3,Resolvido,72,480,0,Produto,Zabbix,2
+277,2025-09-22 22:34:21,2025-09-23 00:54:21,BI/Analytics,Incidente de Rede,P2,Resolvido,140,240,0,Engenharia,Grafana Alert,3
+278,2025-09-23 08:57:37,,Data Pipeline,Incidente de Rede,P2,Em andamento,162,240,0,Dados,Cliente,3
+279,2025-09-23 10:13:43,2025-09-23 11:32:43,E-commerce,Fila/Backlog,P3,Resolvido,79,480,0,Dados,Prometheus,2
+280,2025-09-23 11:49:16,2025-09-23 13:03:16,CRM,Erro 5xx,P3,Resolvido,74,480,0,Engenharia,Service Desk,2
+281,2025-09-23 23:21:19,,ERP,Indisponibilidade,P3,Em andamento,77,480,0,Produto,Zabbix,2
+282,2025-09-24 00:04:23,,E-commerce,Indisponibilidade,P3,Em andamento,80,480,0,Engenharia,Prometheus,2
+283,2025-09-24 01:27:58,2025-09-24 02:40:58,ERP,Erro de autenticação,P3,Resolvido,73,480,0,Engenharia,Service Desk,2
+284,2025-09-24 04:37:10,2025-09-24 05:57:10,API Gateway,Falha de Job,P3,Resolvido,80,480,0,Engenharia,Zabbix,2
+285,2025-09-24 06:18:20,2025-09-24 08:56:20,Rede/VPN,Fila/Backlog,P2,Resolvido,158,240,0,Engenharia,Cliente,3
+286,2025-09-24 22:43:10,2025-09-25 00:49:10,CRM,Erro de autenticação,P2,Resolvido,126,240,0,Engenharia,Zabbix,3
+287,2025-09-25 00:36:12,2025-09-25 03:02:12,API Gateway,Lentidão,P2,Resolvido,146,240,0,Engenharia,Synthetic Monitor,3
+288,2025-09-25 01:17:42,2025-09-25 03:35:42,BI/Analytics,Fila/Backlog,P2,Resolvido,138,240,0,Engenharia,Prometheus,3
+289,2025-09-25 16:17:00,2025-09-25 16:53:00,Email,Timeout,P4,Resolvido,36,720,0,Operações,Synthetic Monitor,1
+290,2025-09-25 16:31:34,2025-09-25 17:54:34,Data Pipeline,Incidente de Rede,P3,Resolvido,83,480,0,Produto,Service Desk,2
+291,2025-09-25 19:27:24,,CRM,Timeout,P2,Aguardando fornecedor,136,240,0,Engenharia,Zabbix,3
+292,2025-09-26 07:34:10,2025-09-26 08:40:10,BI/Analytics,Fila/Backlog,P3,Resolvido,66,480,0,Operações,Zabbix,2
+293,2025-09-27 00:51:21,,E-commerce,Incidente de Rede,P3,Em andamento,80,480,0,Dados,Zabbix,2
+294,2025-09-27 03:47:32,,CRM,Erro de autenticação,P1,Cancelado,247,180,1,Engenharia,Service Desk,5
+295,2025-09-27 09:31:34,,BI/Analytics,Incidente de Rede,P2,Em andamento,137,240,0,Operações,Cliente,3
+296,2025-09-27 22:19:29,2025-09-28 01:08:29,Data Pipeline,Erro 5xx,P2,Resolvido,169,240,0,Engenharia,Grafana Alert,3
+297,2025-09-28 08:10:41,,Rede/VPN,Lentidão,P3,Em andamento,93,480,0,Engenharia,Grafana Alert,2
+298,2025-09-28 21:28:46,2025-09-29 00:11:46,Data Pipeline,Erro de autenticação,P2,Resolvido,163,240,0,Engenharia,Service Desk,3
+299,2025-09-30 07:44:03,2025-09-30 12:57:03,Rede/VPN,Lentidão,P1,Resolvido,313,180,1,Produto,Service Desk,5
+300,2025-10-01 05:42:55,,CRM,Indisponibilidade,P1,Em andamento,251,180,1,Dados,Service Desk,5
+301,2025-10-02 08:38:35,2025-10-02 09:54:35,E-commerce,Incidente de Rede,P3,Resolvido,76,480,0,Produto,Grafana Alert,2
+302,2025-10-02 17:59:17,2025-10-02 22:25:17,CRM,Falha de Job,P1,Resolvido,266,180,1,Engenharia,Service Desk,5
+303,2025-10-03 06:45:43,2025-10-03 07:26:43,E-commerce,Lentidão,P4,Resolvido,41,720,0,Operações,Synthetic Monitor,1
+304,2025-10-03 08:36:03,,BI/Analytics,Falha de Job,P2,Em andamento,138,240,0,Engenharia,Prometheus,3
+305,2025-10-03 18:41:14,2025-10-03 19:53:14,CRM,Indisponibilidade,P3,Resolvido,72,480,0,Engenharia,Zabbix,2
+306,2025-10-03 22:21:00,2025-10-03 23:50:00,Data Pipeline,Erro 5xx,P3,Resolvido,89,480,0,Engenharia,Zabbix,2
+307,2025-10-04 04:06:16,,Email,Timeout,P3,Em andamento,62,480,0,Produto,Service Desk,2
+308,2025-10-04 07:36:53,2025-10-04 11:27:53,Email,Erro 5xx,P1,Resolvido,231,180,1,Engenharia,Prometheus,5
+309,2025-10-04 17:11:54,2025-10-04 18:25:54,API Gateway,Timeout,P3,Resolvido,74,480,0,Engenharia,Synthetic Monitor,2
+310,2025-10-05 11:12:56,2025-10-05 11:56:56,API Gateway,Falha de Job,P4,Resolvido,44,720,0,Operações,Service Desk,1
+311,2025-10-05 13:44:57,,BI/Analytics,Indisponibilidade,P1,Aguardando fornecedor,260,180,1,Dados,Service Desk,5
+312,2025-10-05 17:14:24,2025-10-05 19:51:24,Rede/VPN,Indisponibilidade,P2,Resolvido,157,240,0,Engenharia,Cliente,3
+313,2025-10-05 18:03:18,2025-10-05 18:42:18,Email,Incidente de Rede,P4,Resolvido,39,720,0,Dados,Prometheus,1
+314,2025-10-05 23:11:39,2025-10-06 00:31:39,BI/Analytics,Fila/Backlog,P3,Resolvido,80,480,0,Dados,Cliente,2
+315,2025-10-06 00:17:11,,Email,Fila/Backlog,P2,Em andamento,116,240,0,Dados,Zabbix,3
+316,2025-10-06 02:48:39,2025-10-06 05:27:39,E-commerce,Erro de autenticação,P2,Resolvido,159,240,0,Engenharia,Service Desk,3
+317,2025-10-06 05:37:42,2025-10-06 07:05:42,Data Pipeline,Erro de autenticação,P3,Resolvido,88,480,0,Engenharia,Synthetic Monitor,2
+318,2025-10-07 07:44:20,,ERP,Timeout,P3,Cancelado,72,480,0,Operações,Cliente,2
+319,2025-10-07 19:18:41,2025-10-07 20:42:41,Rede/VPN,Fila/Backlog,P3,Resolvido,84,480,0,Engenharia,Cliente,2
+320,2025-10-08 14:07:04,2025-10-08 14:47:04,BI/Analytics,Lentidão,P4,Resolvido,40,720,0,Engenharia,Grafana Alert,1
+321,2025-10-09 01:29:14,2025-10-09 02:54:14,Data Pipeline,Timeout,P3,Resolvido,85,480,0,Engenharia,Cliente,2
+322,2025-10-09 05:49:15,,API Gateway,Timeout,P2,Em andamento,150,240,0,Dados,Service Desk,3
+323,2025-10-09 05:53:38,2025-10-09 07:10:38,ERP,Indisponibilidade,P3,Resolvido,77,480,0,Operações,Service Desk,2
+324,2025-10-09 11:01:43,2025-10-09 13:12:43,BI/Analytics,Erro de autenticação,P2,Resolvido,131,240,0,Produto,Zabbix,3
+325,2025-10-09 14:23:19,2025-10-09 16:39:19,ERP,Falha de Job,P2,Resolvido,136,240,0,Engenharia,Prometheus,3
+326,2025-10-09 14:50:06,2025-10-09 19:26:06,ERP,Fila/Backlog,P1,Resolvido,276,180,1,Produto,Service Desk,5
+327,2025-10-09 15:35:53,,E-commerce,Lentidão,P2,Em andamento,151,240,0,Operações,Zabbix,3
+328,2025-10-09 15:56:13,2025-10-09 17:14:13,ERP,Indisponibilidade,P3,Resolvido,78,480,0,Operações,Service Desk,2
+329,2025-10-09 18:16:33,2025-10-09 23:07:33,API Gateway,Fila/Backlog,P1,Resolvido,291,180,1,Engenharia,Cliente,5
+330,2025-10-09 22:37:13,,Data Pipeline,Erro de autenticação,P3,Em andamento,83,480,0,Produto,Synthetic Monitor,2
+331,2025-10-09 23:17:11,2025-10-10 00:22:11,CRM,Incidente de Rede,P3,Resolvido,65,480,0,Operações,Zabbix,2
+332,2025-10-10 07:38:32,2025-10-10 09:07:32,ERP,Fila/Backlog,P3,Resolvido,89,480,0,Operações,Synthetic Monitor,2
+333,2025-10-10 10:03:42,2025-10-10 11:21:42,ERP,Incidente de Rede,P3,Resolvido,78,480,0,Produto,Zabbix,2
+334,2025-10-10 14:14:58,2025-10-10 15:31:58,API Gateway,Lentidão,P3,Resolvido,77,480,0,Operações,Grafana Alert,2
+335,2025-10-10 19:40:30,2025-10-10 20:52:30,ERP,Erro de autenticação,P3,Resolvido,72,480,0,Engenharia,Cliente,2
+336,2025-10-10 19:51:32,2025-10-11 00:59:32,Rede/VPN,Lentidão,P1,Resolvido,308,180,1,Engenharia,Zabbix,5
+337,2025-10-10 23:46:06,2025-10-11 01:04:06,E-commerce,Fila/Backlog,P3,Resolvido,78,480,0,Operações,Zabbix,2
+338,2025-10-11 08:25:25,2025-10-11 09:41:25,CRM,Lentidão,P3,Resolvido,76,480,0,Engenharia,Zabbix,2
+339,2025-10-11 14:48:18,2025-10-11 17:13:18,API Gateway,Erro de autenticação,P2,Resolvido,145,240,0,Operações,Service Desk,3
+340,2025-10-11 20:55:48,2025-10-12 01:48:48,API Gateway,Erro 5xx,P1,Resolvido,293,180,1,Operações,Cliente,5
+341,2025-10-12 06:47:50,2025-10-12 09:07:50,ERP,Lentidão,P2,Resolvido,140,240,0,Dados,Zabbix,3
+342,2025-10-12 09:35:16,,ERP,Indisponibilidade,P3,Em andamento,72,480,0,Engenharia,Zabbix,2
+343,2025-10-12 12:11:53,2025-10-12 13:22:53,BI/Analytics,Fila/Backlog,P3,Resolvido,71,480,0,Dados,Service Desk,2
+344,2025-10-12 17:01:41,2025-10-12 19:16:41,ERP,Incidente de Rede,P2,Resolvido,135,240,0,Operações,Prometheus,3
+345,2025-10-12 17:06:30,2025-10-12 17:54:30,Data Pipeline,Lentidão,P4,Resolvido,48,720,0,Operações,Service Desk,1
+346,2025-10-13 06:02:41,,API Gateway,Erro de autenticação,P4,Em andamento,44,720,0,Produto,Synthetic Monitor,1
+347,2025-10-13 11:44:56,2025-10-13 13:59:56,CRM,Lentidão,P2,Resolvido,135,240,0,Produto,Service Desk,3
+348,2025-10-13 12:09:31,2025-10-13 12:47:31,API Gateway,Falha de Job,P4,Resolvido,38,720,0,Dados,Cliente,1
+349,2025-10-14 07:17:52,2025-10-14 11:11:52,Email,Erro de autenticação,P1,Resolvido,234,180,1,Operações,Service Desk,5
+350,2025-10-14 09:38:32,2025-10-14 10:20:32,Email,Incidente de Rede,P4,Resolvido,42,720,0,Dados,Cliente,1
+351,2025-10-14 17:06:12,2025-10-14 17:55:12,CRM,Lentidão,P4,Resolvido,49,720,0,Dados,Prometheus,1
+352,2025-10-14 17:45:44,2025-10-14 21:55:44,CRM,Indisponibilidade,P1,Resolvido,250,180,1,Engenharia,Zabbix,5
+353,2025-10-15 02:54:02,,E-commerce,Fila/Backlog,P3,Em andamento,89,480,0,Operações,Service Desk,2
+354,2025-10-15 09:11:44,2025-10-15 09:50:44,API Gateway,Timeout,P4,Resolvido,39,720,0,Engenharia,Zabbix,1
+355,2025-10-15 11:14:34,,Rede/VPN,Incidente de Rede,P4,Em andamento,52,720,0,Operações,Cliente,1
+356,2025-10-15 17:28:08,,E-commerce,Falha de Job,P4,Em andamento,43,720,0,Engenharia,Service Desk,1
+357,2025-10-15 20:02:51,,CRM,Incidente de Rede,P3,Em andamento,64,480,0,Produto,Synthetic Monitor,2
+358,2025-10-16 03:43:56,2025-10-16 08:01:56,BI/Analytics,Timeout,P1,Resolvido,258,180,1,Dados,Prometheus,5
+359,2025-10-16 08:52:00,2025-10-16 09:35:00,ERP,Erro 5xx,P4,Resolvido,43,720,0,Engenharia,Grafana Alert,1
+360,2025-10-16 09:39:11,2025-10-16 10:55:11,API Gateway,Erro de autenticação,P3,Resolvido,76,480,0,Engenharia,Service Desk,2
+361,2025-10-16 10:01:38,2025-10-16 11:28:38,Rede/VPN,Lentidão,P3,Resolvido,87,480,0,Engenharia,Prometheus,2
+362,2025-10-16 11:07:49,,E-commerce,Erro de autenticação,P3,Em andamento,76,480,0,Engenharia,Service Desk,2
+363,2025-10-17 02:36:19,2025-10-17 03:45:19,ERP,Erro 5xx,P3,Resolvido,69,480,0,Dados,Service Desk,2
+364,2025-10-17 06:42:09,2025-10-17 09:26:09,E-commerce,Indisponibilidade,P2,Resolvido,164,240,0,Operações,Synthetic Monitor,3
+365,2025-10-17 08:51:17,2025-10-17 10:10:17,BI/Analytics,Lentidão,P3,Resolvido,79,480,0,Dados,Service Desk,2
+366,2025-10-17 10:22:50,,ERP,Fila/Backlog,P1,Aguardando fornecedor,270,180,1,Engenharia,Zabbix,5
+367,2025-10-17 22:25:41,2025-10-17 23:47:41,E-commerce,Erro 5xx,P3,Resolvido,82,480,0,Dados,Grafana Alert,2
+368,2025-10-17 22:29:12,2025-10-17 23:19:12,ERP,Incidente de Rede,P4,Resolvido,50,720,0,Produto,Service Desk,1
+369,2025-10-18 07:03:49,,ERP,Erro de autenticação,P3,Em andamento,78,480,0,Engenharia,Zabbix,2
+370,2025-10-18 09:41:09,,Data Pipeline,Incidente de Rede,P3,Cancelado,89,480,0,Operações,Grafana Alert,2
+371,2025-10-18 20:23:20,2025-10-18 23:04:20,E-commerce,Timeout,P2,Resolvido,161,240,0,Engenharia,Prometheus,3
+372,2025-10-19 07:08:39,,Data Pipeline,Indisponibilidade,P4,Em andamento,46,720,0,Operações,Zabbix,1
+373,2025-10-19 08:43:30,,Data Pipeline,Lentidão,P3,Em andamento,88,480,0,Operações,Service Desk,2
+374,2025-10-19 09:58:14,2025-10-19 11:56:14,Email,Timeout,P2,Resolvido,118,240,0,Produto,Zabbix,3
+375,2025-10-19 20:49:14,2025-10-19 23:10:14,ERP,Fila/Backlog,P2,Resolvido,141,240,0,Operações,Service Desk,3
+376,2025-10-19 22:27:44,2025-10-20 00:41:44,BI/Analytics,Erro 5xx,P2,Resolvido,134,240,0,Produto,Zabbix,3
+377,2025-10-20 05:07:47,2025-10-20 06:35:47,Data Pipeline,Fila/Backlog,P3,Resolvido,88,480,0,Engenharia,Service Desk,2
+378,2025-10-20 13:42:33,2025-10-20 14:28:33,E-commerce,Incidente de Rede,P4,Resolvido,46,720,0,Operações,Prometheus,1
+379,2025-10-20 21:27:55,2025-10-20 22:27:55,Email,Erro de autenticação,P3,Resolvido,60,480,0,Engenharia,Cliente,2
+380,2025-10-21 21:42:48,2025-10-22 00:03:48,BI/Analytics,Indisponibilidade,P2,Resolvido,141,240,0,Operações,Zabbix,3
+381,2025-10-22 06:15:39,2025-10-22 06:57:39,E-commerce,Erro 5xx,P4,Resolvido,42,720,0,Engenharia,Service Desk,1
+382,2025-10-22 08:26:09,2025-10-22 10:41:09,BI/Analytics,Incidente de Rede,P2,Resolvido,135,240,0,Engenharia,Prometheus,3
+383,2025-10-22 12:09:37,2025-10-22 12:52:37,API Gateway,Falha de Job,P4,Resolvido,43,720,0,Produto,Prometheus,1
+384,2025-10-22 20:15:23,2025-10-22 23:03:23,Data Pipeline,Falha de Job,P2,Resolvido,168,240,0,Engenharia,Grafana Alert,3
+385,2025-10-23 04:18:32,2025-10-23 05:24:32,BI/Analytics,Incidente de Rede,P3,Resolvido,66,480,0,Dados,Cliente,2
+386,2025-10-23 07:42:03,2025-10-23 08:28:03,CRM,Indisponibilidade,P4,Resolvido,46,720,0,Engenharia,Synthetic Monitor,1
+387,2025-10-23 09:29:20,2025-10-23 11:24:20,Email,Erro 5xx,P2,Resolvido,115,240,0,Produto,Prometheus,3
+388,2025-10-23 14:32:27,2025-10-23 15:50:27,CRM,Indisponibilidade,P3,Resolvido,78,480,0,Produto,Zabbix,2
+389,2025-10-23 20:31:32,,Email,Indisponibilidade,P4,Aguardando fornecedor,35,720,0,Engenharia,Service Desk,1
+390,2025-10-23 23:38:41,2025-10-24 02:24:41,Data Pipeline,Falha de Job,P2,Resolvido,166,240,0,Operações,Service Desk,3
+391,2025-10-24 09:08:01,,E-commerce,Incidente de Rede,P1,Em andamento,314,180,1,Engenharia,Prometheus,5
+392,2025-10-24 11:42:11,2025-10-24 13:00:11,API Gateway,Lentidão,P3,Resolvido,78,480,0,Operações,Service Desk,2
+393,2025-10-24 19:20:58,2025-10-24 21:39:58,CRM,Timeout,P2,Resolvido,139,240,0,Engenharia,Service Desk,3
+394,2025-10-24 20:08:28,,ERP,Fila/Backlog,P1,Cancelado,274,180,1,Operações,Service Desk,5
+395,2025-10-25 01:57:34,,ERP,Indisponibilidade,P3,Em andamento,78,480,0,Operações,Prometheus,2
+396,2025-10-25 04:07:36,2025-10-25 05:17:36,CRM,Incidente de Rede,P3,Resolvido,70,480,0,Dados,Grafana Alert,2
+397,2025-10-25 05:49:02,2025-10-25 08:16:02,ERP,Falha de Job,P2,Resolvido,147,240,0,Dados,Prometheus,3
+398,2025-10-25 18:24:06,2025-10-25 20:55:06,E-commerce,Fila/Backlog,P2,Resolvido,151,240,0,Dados,Service Desk,3
+399,2025-10-26 01:12:07,2025-10-26 01:56:07,Rede/VPN,Timeout,P4,Resolvido,44,720,0,Dados,Zabbix,1
+400,2025-10-26 03:55:34,2025-10-26 05:17:34,Rede/VPN,Erro de autenticação,P3,Resolvido,82,480,0,Produto,Service Desk,2
+401,2025-10-26 04:08:24,,Rede/VPN,Falha de Job,P4,Cancelado,48,720,0,Operações,Cliente,1
+402,2025-10-26 07:12:56,2025-10-26 08:21:56,CRM,Erro de autenticação,P3,Resolvido,69,480,0,Operações,Service Desk,2
+403,2025-10-26 11:14:42,2025-10-26 12:00:42,BI/Analytics,Incidente de Rede,P4,Resolvido,46,720,0,Engenharia,Zabbix,1
+404,2025-10-26 22:37:06,2025-10-27 00:14:06,Data Pipeline,Indisponibilidade,P3,Resolvido,97,480,0,Operações,Prometheus,2
+405,2025-10-28 01:38:44,2025-10-28 06:32:44,E-commerce,Lentidão,P1,Resolvido,294,180,1,Dados,Grafana Alert,5
+406,2025-10-28 07:11:34,2025-10-28 07:54:34,E-commerce,Incidente de Rede,P4,Resolvido,43,720,0,Operações,Service Desk,1
+407,2025-10-28 11:50:17,2025-10-28 13:10:17,Rede/VPN,Erro 5xx,P3,Resolvido,80,480,0,Operações,Synthetic Monitor,2
+408,2025-10-28 17:03:47,2025-10-28 19:55:47,E-commerce,Erro 5xx,P2,Resolvido,172,240,0,Operações,Grafana Alert,3
+409,2025-10-29 02:35:17,2025-10-29 05:23:17,Data Pipeline,Falha de Job,P2,Resolvido,168,240,0,Operações,Cliente,3
+410,2025-10-29 09:00:12,2025-10-29 10:16:12,BI/Analytics,Lentidão,P3,Resolvido,76,480,0,Operações,Zabbix,2
+411,2025-10-29 18:24:28,2025-10-29 22:53:28,ERP,Fila/Backlog,P1,Resolvido,269,180,1,Engenharia,Grafana Alert,5
+412,2025-10-29 19:06:14,,ERP,Erro 5xx,P2,Em andamento,142,240,0,Operações,Zabbix,3
+413,2025-10-29 21:03:16,2025-10-29 23:22:16,BI/Analytics,Lentidão,P2,Resolvido,139,240,0,Engenharia,Service Desk,3
+414,2025-10-30 06:00:49,2025-10-30 07:27:49,Data Pipeline,Incidente de Rede,P3,Resolvido,87,480,0,Dados,Zabbix,2
+415,2025-10-30 09:19:49,2025-10-30 10:48:49,E-commerce,Lentidão,P3,Resolvido,89,480,0,Engenharia,Prometheus,2
+416,2025-10-30 12:15:23,2025-10-30 13:50:23,BI/Analytics,Indisponibilidade,P3,Resolvido,95,480,0,Engenharia,Service Desk,2
+417,2025-10-31 03:26:05,2025-10-31 05:38:05,BI/Analytics,Timeout,P2,Resolvido,132,240,0,Produto,Service Desk,3
+418,2025-11-01 03:19:30,2025-11-01 08:37:30,Data Pipeline,Falha de Job,P1,Resolvido,318,180,1,Operações,Zabbix,5
+419,2025-11-01 04:41:59,2025-11-01 06:05:59,Data Pipeline,Lentidão,P3,Resolvido,84,480,0,Operações,Zabbix,2
+420,2025-11-01 11:16:18,,CRM,Timeout,P2,Aguardando fornecedor,142,240,0,Dados,Service Desk,3
+421,2025-11-01 14:11:51,2025-11-01 15:34:51,ERP,Fila/Backlog,P3,Resolvido,83,480,0,Engenharia,Prometheus,2
+422,2025-11-01 16:37:02,2025-11-01 21:58:02,Data Pipeline,Falha de Job,P1,Resolvido,321,180,1,Operações,Prometheus,5
+423,2025-11-02 05:18:03,2025-11-02 09:28:03,CRM,Lentidão,P1,Resolvido,250,180,1,Produto,Service Desk,5
+424,2025-11-02 08:49:36,,Rede/VPN,Incidente de Rede,P2,Aguardando fornecedor,157,240,0,Engenharia,Prometheus,3
+425,2025-11-02 11:18:27,,Email,Fila/Backlog,P3,Cancelado,70,480,0,Engenharia,Service Desk,2
+426,2025-11-03 08:18:07,2025-11-03 10:38:07,ERP,Falha de Job,P2,Resolvido,140,240,0,Engenharia,Grafana Alert,3
+427,2025-11-03 19:13:05,2025-11-03 20:40:05,Data Pipeline,Erro 5xx,P3,Resolvido,87,480,0,Dados,Prometheus,2
+428,2025-11-03 22:27:40,2025-11-04 01:05:40,E-commerce,Incidente de Rede,P2,Resolvido,158,240,0,Engenharia,Zabbix,3
+429,2025-11-04 07:49:54,,BI/Analytics,Timeout,P3,Em andamento,72,480,0,Engenharia,Prometheus,2
+430,2025-11-04 10:35:05,2025-11-04 11:56:05,E-commerce,Lentidão,P3,Resolvido,81,480,0,Operações,Zabbix,2
+431,2025-11-04 12:56:57,2025-11-04 18:18:57,Data Pipeline,Incidente de Rede,P1,Resolvido,322,180,1,Operações,Prometheus,5
+432,2025-11-04 19:17:56,2025-11-04 20:50:56,Data Pipeline,Falha de Job,P3,Resolvido,93,480,0,Dados,Synthetic Monitor,2
+433,2025-11-04 20:36:02,2025-11-04 23:17:02,API Gateway,Erro 5xx,P2,Resolvido,161,240,0,Engenharia,Cliente,3
+434,2025-11-04 21:10:46,,Rede/VPN,Fila/Backlog,P3,Em andamento,88,480,0,Produto,Grafana Alert,2
+435,2025-11-06 07:03:55,2025-11-06 12:18:55,Rede/VPN,Erro de autenticação,P1,Resolvido,315,180,1,Engenharia,Service Desk,5
+436,2025-11-06 07:18:55,2025-11-06 08:45:55,Data Pipeline,Fila/Backlog,P3,Resolvido,87,480,0,Operações,Service Desk,2
+437,2025-11-06 10:19:48,2025-11-06 10:53:48,Email,Incidente de Rede,P4,Resolvido,34,720,0,Engenharia,Cliente,1
+438,2025-11-06 12:52:23,2025-11-06 17:18:23,BI/Analytics,Incidente de Rede,P1,Resolvido,266,180,1,Operações,Prometheus,5
+439,2025-11-06 15:55:41,2025-11-06 17:15:41,API Gateway,Lentidão,P3,Resolvido,80,480,0,Engenharia,Prometheus,2
+440,2025-11-06 17:25:06,2025-11-06 18:48:06,Data Pipeline,Incidente de Rede,P3,Resolvido,83,480,0,Engenharia,Prometheus,2
+441,2025-11-06 18:18:47,,ERP,Erro de autenticação,P2,Em andamento,140,240,0,Operações,Zabbix,3
+442,2025-11-06 19:20:33,2025-11-06 20:24:33,Email,Timeout,P3,Resolvido,64,480,0,Operações,Prometheus,2
+443,2025-11-06 21:50:32,2025-11-06 23:16:32,Data Pipeline,Falha de Job,P3,Resolvido,86,480,0,Engenharia,Cliente,2
+444,2025-11-07 05:33:18,2025-11-07 06:28:18,API Gateway,Erro de autenticação,P4,Resolvido,55,720,0,Operações,Synthetic Monitor,1
+445,2025-11-07 17:39:55,2025-11-07 18:25:55,ERP,Erro de autenticação,P4,Resolvido,46,720,0,Operações,Zabbix,1
+446,2025-11-08 23:08:07,2025-11-09 03:40:07,BI/Analytics,Erro de autenticação,P1,Resolvido,272,180,1,Engenharia,Grafana Alert,5
+447,2025-11-09 01:38:42,2025-11-09 02:58:42,API Gateway,Falha de Job,P3,Resolvido,80,480,0,Produto,Grafana Alert,2
+448,2025-11-09 03:14:04,2025-11-09 04:39:04,Rede/VPN,Erro de autenticação,P3,Resolvido,85,480,0,Produto,Grafana Alert,2
+449,2025-11-09 03:59:55,2025-11-09 06:29:55,E-commerce,Erro 5xx,P2,Resolvido,150,240,0,Operações,Service Desk,3
+450,2025-11-09 14:37:38,2025-11-09 16:53:38,BI/Analytics,Erro 5xx,P2,Resolvido,136,240,0,Dados,Zabbix,3
+451,2025-11-09 22:45:03,2025-11-09 23:31:03,E-commerce,Lentidão,P4,Resolvido,46,720,0,Operações,Cliente,1
+452,2025-11-10 12:37:24,2025-11-10 17:30:24,E-commerce,Erro de autenticação,P1,Resolvido,293,180,1,Operações,Synthetic Monitor,5
+453,2025-11-10 15:22:54,,BI/Analytics,Indisponibilidade,P3,Em andamento,71,480,0,Operações,Service Desk,2
+454,2025-11-10 19:17:35,2025-11-10 19:57:35,BI/Analytics,Indisponibilidade,P4,Resolvido,40,720,0,Operações,Service Desk,1
+455,2025-11-11 07:22:34,2025-11-11 09:58:34,E-commerce,Timeout,P2,Resolvido,156,240,0,Operações,Service Desk,3
+456,2025-11-11 23:03:01,,API Gateway,Indisponibilidade,P3,Aguardando fornecedor,82,480,0,Operações,Prometheus,2
+457,2025-11-12 09:05:40,2025-11-12 09:50:40,Rede/VPN,Fila/Backlog,P4,Resolvido,45,720,0,Operações,Zabbix,1
+458,2025-11-12 09:54:06,2025-11-12 11:10:06,BI/Analytics,Falha de Job,P3,Resolvido,76,480,0,Produto,Service Desk,2
+459,2025-11-12 17:50:42,2025-11-12 19:59:42,CRM,Timeout,P2,Resolvido,129,240,0,Dados,Zabbix,3
+460,2025-11-12 19:20:54,2025-11-13 00:34:54,Data Pipeline,Erro de autenticação,P1,Resolvido,314,180,1,Operações,Cliente,5
+461,2025-11-12 19:39:26,2025-11-12 20:24:26,Rede/VPN,Lentidão,P4,Resolvido,45,720,0,Operações,Grafana Alert,1
+462,2025-11-13 12:15:26,2025-11-13 15:02:26,Rede/VPN,Incidente de Rede,P2,Resolvido,167,240,0,Dados,Grafana Alert,3
+463,2025-11-14 08:00:17,2025-11-14 08:58:17,Email,Falha de Job,P3,Resolvido,58,480,0,Dados,Prometheus,2
+464,2025-11-14 11:25:13,2025-11-14 16:48:13,Data Pipeline,Fila/Backlog,P1,Resolvido,323,180,1,Engenharia,Synthetic Monitor,5
+465,2025-11-14 21:32:33,2025-11-14 23:00:33,ERP,Indisponibilidade,P3,Resolvido,88,480,0,Operações,Zabbix,2
+466,2025-11-15 02:13:02,2025-11-15 02:51:02,BI/Analytics,Indisponibilidade,P4,Resolvido,38,720,0,Produto,Zabbix,1
+467,2025-11-15 03:29:19,2025-11-15 04:42:19,BI/Analytics,Erro 5xx,P3,Resolvido,73,480,0,Operações,Zabbix,2
+468,2025-11-15 17:37:17,2025-11-15 18:09:17,Email,Lentidão,P4,Resolvido,32,720,0,Operações,Service Desk,1
+469,2025-11-15 21:48:23,,ERP,Falha de Job,P2,Aguardando fornecedor,155,240,0,Produto,Synthetic Monitor,3
+470,2025-11-16 06:45:53,2025-11-16 08:07:53,E-commerce,Lentidão,P3,Resolvido,82,480,0,Engenharia,Prometheus,2
+471,2025-11-16 11:44:24,2025-11-16 12:32:24,Rede/VPN,Erro 5xx,P4,Resolvido,48,720,0,Produto,Synthetic Monitor,1
+472,2025-11-16 14:34:26,2025-11-16 16:00:26,ERP,Incidente de Rede,P3,Resolvido,86,480,0,Engenharia,Prometheus,2
+473,2025-11-16 20:46:48,2025-11-16 23:06:48,BI/Analytics,Falha de Job,P2,Resolvido,140,240,0,Operações,Service Desk,3
+474,2025-11-17 01:21:48,2025-11-17 01:57:48,CRM,Lentidão,P4,Resolvido,36,720,0,Operações,Zabbix,1
+475,2025-11-17 02:32:10,2025-11-17 05:09:10,Rede/VPN,Erro de autenticação,P2,Resolvido,157,240,0,Engenharia,Grafana Alert,3
+476,2025-11-17 20:36:12,2025-11-17 21:52:12,BI/Analytics,Fila/Backlog,P3,Resolvido,76,480,0,Dados,Service Desk,2
+477,2025-11-17 22:06:02,2025-11-17 22:48:02,API Gateway,Timeout,P4,Resolvido,42,720,0,Operações,Service Desk,1
+478,2025-11-18 04:03:37,2025-11-18 06:06:37,CRM,Incidente de Rede,P2,Resolvido,123,240,0,Engenharia,Prometheus,3
+479,2025-11-18 14:17:45,2025-11-18 17:03:45,Data Pipeline,Falha de Job,P2,Resolvido,166,240,0,Operações,Cliente,3
+480,2025-11-18 20:52:11,2025-11-19 02:09:11,Data Pipeline,Incidente de Rede,P1,Resolvido,317,180,1,Operações,Synthetic Monitor,5
+481,2025-11-20 02:07:56,2025-11-20 04:47:56,API Gateway,Indisponibilidade,P2,Resolvido,160,240,0,Engenharia,Grafana Alert,3
+482,2025-11-20 03:22:43,2025-11-20 06:09:43,Data Pipeline,Lentidão,P2,Resolvido,167,240,0,Operações,Service Desk,3
+483,2025-11-20 12:51:59,2025-11-20 14:00:59,BI/Analytics,Fila/Backlog,P3,Resolvido,69,480,0,Produto,Cliente,2
+484,2025-11-20 14:19:52,2025-11-20 16:44:52,API Gateway,Indisponibilidade,P2,Resolvido,145,240,0,Produto,Prometheus,3
+485,2025-11-20 22:48:38,2025-11-21 00:04:38,E-commerce,Erro 5xx,P3,Resolvido,76,480,0,Operações,Cliente,2
+486,2025-11-20 23:28:11,2025-11-21 01:34:11,CRM,Lentidão,P2,Resolvido,126,240,0,Operações,Prometheus,3
+487,2025-11-22 06:30:59,2025-11-22 09:05:59,API Gateway,Incidente de Rede,P2,Resolvido,155,240,0,Operações,Service Desk,3
+488,2025-11-22 06:34:57,,E-commerce,Indisponibilidade,P2,Aguardando fornecedor,175,240,0,Dados,Zabbix,3
+489,2025-11-23 12:51:20,2025-11-23 14:17:20,E-commerce,Lentidão,P3,Resolvido,86,480,0,Engenharia,Prometheus,2
+490,2025-11-23 15:41:54,2025-11-23 17:06:54,Rede/VPN,Lentidão,P3,Resolvido,85,480,0,Produto,Service Desk,2
+491,2025-11-23 20:51:13,2025-11-23 22:59:13,CRM,Lentidão,P2,Resolvido,128,240,0,Operações,Service Desk,3
+492,2025-11-24 02:31:39,,BI/Analytics,Fila/Backlog,P4,Cancelado,38,720,0,Engenharia,Cliente,1
+493,2025-11-24 05:24:48,2025-11-24 07:04:48,E-commerce,Erro 5xx,P3,Resolvido,100,480,0,Operações,Synthetic Monitor,2
+494,2025-11-24 13:06:26,2025-11-24 15:27:26,ERP,Incidente de Rede,P2,Resolvido,141,240,0,Engenharia,Zabbix,3
+495,2025-11-24 20:05:07,,Email,Erro 5xx,P4,Cancelado,56,720,0,Engenharia,Prometheus,1
+496,2025-11-25 01:58:24,2025-11-25 04:24:24,BI/Analytics,Fila/Backlog,P2,Resolvido,146,240,0,Produto,Prometheus,3
+497,2025-11-25 03:47:20,,CRM,Timeout,P1,Aguardando fornecedor,244,180,1,Operações,Grafana Alert,5
+498,2025-11-25 04:52:54,2025-11-25 06:11:54,E-commerce,Timeout,P3,Resolvido,79,480,0,Operações,Grafana Alert,2
+499,2025-11-25 06:06:41,2025-11-25 08:37:41,E-commerce,Falha de Job,P2,Resolvido,151,240,0,Operações,Cliente,3
+500,2025-11-25 06:44:22,2025-11-25 09:30:22,Data Pipeline,Lentidão,P2,Resolvido,166,240,0,Produto,Service Desk,3
+501,2025-11-25 14:28:05,2025-11-25 15:47:05,API Gateway,Fila/Backlog,P3,Resolvido,79,480,0,Dados,Zabbix,2
+502,2025-11-25 17:29:23,,E-commerce,Falha de Job,P2,Aguardando fornecedor,189,240,0,Operações,Grafana Alert,3
+503,2025-11-25 19:13:38,2025-11-25 20:25:38,ERP,Falha de Job,P3,Resolvido,72,480,0,Engenharia,Service Desk,2
+504,2025-11-26 09:05:17,,API Gateway,Fila/Backlog,P4,Cancelado,46,720,0,Engenharia,Grafana Alert,1
+505,2025-11-27 01:20:48,2025-11-27 02:37:48,BI/Analytics,Timeout,P3,Resolvido,77,480,0,Operações,Zabbix,2
+506,2025-11-27 01:48:32,2025-11-27 03:13:32,Rede/VPN,Falha de Job,P3,Resolvido,85,480,0,Operações,Grafana Alert,2
+507,2025-11-27 09:02:27,,Data Pipeline,Fila/Backlog,P3,Aguardando fornecedor,89,480,0,Operações,Grafana Alert,2
+508,2025-11-28 18:20:45,2025-11-28 18:59:45,ERP,Incidente de Rede,P4,Resolvido,39,720,0,Engenharia,Prometheus,1
+509,2025-11-29 05:52:47,,E-commerce,Lentidão,P2,Aguardando fornecedor,155,240,0,Produto,Service Desk,3
+510,2025-11-29 05:57:07,2025-11-29 08:10:07,CRM,Erro 5xx,P2,Resolvido,133,240,0,Engenharia,Prometheus,3
+511,2025-11-29 09:36:22,2025-11-29 10:42:22,Email,Indisponibilidade,P3,Resolvido,66,480,0,Dados,Service Desk,2
+512,2025-11-29 19:51:35,2025-11-29 21:07:35,BI/Analytics,Indisponibilidade,P3,Resolvido,76,480,0,Engenharia,Service Desk,2
+513,2025-11-29 20:39:15,2025-11-29 23:05:15,BI/Analytics,Erro de autenticação,P2,Resolvido,146,240,0,Dados,Cliente,3
+514,2025-11-30 14:58:57,2025-11-30 16:17:57,BI/Analytics,Lentidão,P3,Resolvido,79,480,0,Engenharia,Zabbix,2
+515,2025-11-30 23:39:54,2025-12-01 04:01:54,BI/Analytics,Erro de autenticação,P1,Resolvido,262,180,1,Dados,Zabbix,5
+516,2025-12-01 06:12:55,2025-12-01 06:49:55,BI/Analytics,Erro de autenticação,P4,Resolvido,37,720,0,Engenharia,Prometheus,1
+517,2025-12-01 12:07:47,2025-12-01 14:26:47,ERP,Fila/Backlog,P2,Resolvido,139,240,0,Engenharia,Grafana Alert,3
+518,2025-12-01 13:33:04,,E-commerce,Incidente de Rede,P1,Em andamento,297,180,1,Engenharia,Prometheus,5
+519,2025-12-01 18:49:40,2025-12-01 23:00:40,CRM,Falha de Job,P1,Resolvido,251,180,1,Dados,Service Desk,5
+520,2025-12-01 21:14:36,2025-12-01 23:58:36,Data Pipeline,Erro de autenticação,P2,Resolvido,164,240,0,Produto,Prometheus,3
+521,2025-12-01 22:42:34,,ERP,Erro 5xx,P2,Cancelado,138,240,0,Engenharia,Zabbix,3
+522,2025-12-02 02:53:52,2025-12-02 06:35:52,Email,Falha de Job,P1,Resolvido,222,180,1,Engenharia,Grafana Alert,5
+523,2025-12-02 05:53:22,2025-12-02 08:33:22,Data Pipeline,Indisponibilidade,P2,Resolvido,160,240,0,Dados,Service Desk,3
+524,2025-12-02 12:13:33,2025-12-02 14:58:33,Data Pipeline,Fila/Backlog,P2,Resolvido,165,240,0,Produto,Cliente,3
+525,2025-12-03 01:40:03,2025-12-03 04:09:03,E-commerce,Erro de autenticação,P2,Resolvido,149,240,0,Engenharia,Service Desk,3
+526,2025-12-03 09:31:27,2025-12-03 12:01:27,E-commerce,Lentidão,P2,Resolvido,150,240,0,Engenharia,Service Desk,3
+527,2025-12-03 15:15:17,2025-12-03 17:47:17,E-commerce,Fila/Backlog,P2,Resolvido,152,240,0,Dados,Service Desk,3
+528,2025-12-03 16:49:07,2025-12-03 19:00:07,BI/Analytics,Erro 5xx,P2,Resolvido,131,240,0,Operações,Service Desk,3
+529,2025-12-03 17:24:59,2025-12-03 22:48:59,Data Pipeline,Lentidão,P1,Resolvido,324,180,1,Engenharia,Prometheus,5
+530,2025-12-03 23:01:58,2025-12-04 04:15:58,Rede/VPN,Timeout,P1,Resolvido,314,180,1,Engenharia,Service Desk,5
+531,2025-12-05 05:12:12,2025-12-05 07:20:12,CRM,Lentidão,P2,Resolvido,128,240,0,Dados,Service Desk,3
+532,2025-12-05 05:26:59,2025-12-05 06:34:59,CRM,Timeout,P3,Resolvido,68,480,0,Dados,Prometheus,2
+533,2025-12-05 06:39:11,2025-12-05 07:27:11,API Gateway,Lentidão,P4,Resolvido,48,720,0,Engenharia,Service Desk,1
+534,2025-12-05 14:12:36,,Email,Erro de autenticação,P4,Em andamento,34,720,0,Engenharia,Grafana Alert,1
+535,2025-12-05 22:13:06,2025-12-05 23:14:06,Email,Falha de Job,P3,Resolvido,61,480,0,Operações,Service Desk,2
+536,2025-12-06 08:08:05,2025-12-06 09:38:05,E-commerce,Lentidão,P3,Resolvido,90,480,0,Dados,Zabbix,2
+537,2025-12-06 11:12:59,2025-12-06 13:34:59,BI/Analytics,Falha de Job,P2,Resolvido,142,240,0,Operações,Service Desk,3
+538,2025-12-06 14:50:43,2025-12-06 16:16:43,E-commerce,Timeout,P3,Resolvido,86,480,0,Engenharia,Cliente,2
+539,2025-12-07 02:13:08,2025-12-07 03:32:08,BI/Analytics,Incidente de Rede,P3,Resolvido,79,480,0,Engenharia,Zabbix,2
+540,2025-12-07 04:11:04,2025-12-07 04:48:04,ERP,Lentidão,P4,Resolvido,37,720,0,Produto,Grafana Alert,1
+541,2025-12-07 04:34:09,,CRM,Timeout,P4,Cancelado,50,720,0,Operações,Zabbix,1
+542,2025-12-07 06:18:38,2025-12-07 07:24:38,Email,Incidente de Rede,P3,Resolvido,66,480,0,Operações,Zabbix,2
+543,2025-12-07 22:29:11,,E-commerce,Falha de Job,P3,Em andamento,89,480,0,Dados,Synthetic Monitor,2
+544,2025-12-09 01:39:11,2025-12-09 03:00:11,API Gateway,Lentidão,P3,Resolvido,81,480,0,Engenharia,Grafana Alert,2
+545,2025-12-09 04:38:09,2025-12-09 07:06:09,API Gateway,Falha de Job,P2,Resolvido,148,240,0,Operações,Prometheus,3
+546,2025-12-09 13:06:42,2025-12-09 13:51:42,E-commerce,Indisponibilidade,P4,Resolvido,45,720,0,Engenharia,Prometheus,1
+547,2025-12-09 15:37:11,2025-12-09 20:49:11,Rede/VPN,Fila/Backlog,P1,Resolvido,312,180,1,Operações,Synthetic Monitor,5
+548,2025-12-09 18:56:42,,BI/Analytics,Erro de autenticação,P4,Em andamento,40,720,0,Dados,Prometheus,1
+549,2025-12-10 07:58:09,,BI/Analytics,Fila/Backlog,P3,Aguardando fornecedor,78,480,0,Operações,Service Desk,2
+550,2025-12-10 11:04:33,,CRM,Fila/Backlog,P1,Em andamento,245,180,1,Operações,Prometheus,5
+551,2025-12-10 12:30:42,2025-12-10 13:56:42,Data Pipeline,Indisponibilidade,P3,Resolvido,86,480,0,Operações,Zabbix,2
+552,2025-12-11 08:03:01,2025-12-11 13:19:01,E-commerce,Fila/Backlog,P1,Resolvido,316,180,1,Engenharia,Service Desk,5
+553,2025-12-11 14:21:38,2025-12-11 15:40:38,E-commerce,Incidente de Rede,P3,Resolvido,79,480,0,Produto,Zabbix,2
+554,2025-12-12 11:54:48,,E-commerce,Erro de autenticação,P3,Em andamento,81,480,0,Engenharia,Service Desk,2
+555,2025-12-13 23:23:12,2025-12-14 00:32:12,BI/Analytics,Erro 5xx,P3,Resolvido,69,480,0,Produto,Prometheus,2
+556,2025-12-14 07:38:40,2025-12-14 08:21:40,BI/Analytics,Incidente de Rede,P4,Resolvido,43,720,0,Operações,Service Desk,1
+557,2025-12-14 08:34:54,2025-12-14 12:17:54,Email,Indisponibilidade,P1,Resolvido,223,180,1,Operações,Service Desk,5
+558,2025-12-14 10:54:48,2025-12-14 13:39:48,Data Pipeline,Erro de autenticação,P2,Resolvido,165,240,0,Operações,Service Desk,3
+559,2025-12-14 12:29:20,2025-12-14 14:02:20,Data Pipeline,Fila/Backlog,P3,Resolvido,93,480,0,Dados,Zabbix,2
+560,2025-12-14 21:58:11,,Data Pipeline,Erro de autenticação,P1,Em andamento,319,180,1,Operações,Service Desk,5
+561,2025-12-15 00:33:08,,Data Pipeline,Incidente de Rede,P3,Em andamento,93,480,0,Dados,Synthetic Monitor,2
+562,2025-12-15 07:46:54,,API Gateway,Erro de autenticação,P2,Aguardando fornecedor,153,240,0,Operações,Prometheus,3
+563,2025-12-15 09:57:36,2025-12-15 12:38:36,E-commerce,Incidente de Rede,P2,Resolvido,161,240,0,Operações,Prometheus,3
+564,2025-12-15 11:17:50,2025-12-15 12:40:50,E-commerce,Indisponibilidade,P3,Resolvido,83,480,0,Operações,Cliente,2
+565,2025-12-15 14:05:48,2025-12-15 15:27:48,BI/Analytics,Timeout,P4,Resolvido,82,720,0,Operações,Zabbix,1
+566,2025-12-15 15:21:20,2025-12-15 17:56:20,API Gateway,Fila/Backlog,P2,Resolvido,155,240,0,Engenharia,Service Desk,3
+567,2025-12-15 19:27:37,2025-12-15 20:10:37,BI/Analytics,Lentidão,P4,Resolvido,43,720,0,Engenharia,Service Desk,1
+568,2025-12-15 19:58:59,2025-12-15 21:16:59,E-commerce,Lentidão,P3,Resolvido,78,480,0,Operações,Zabbix,2
+569,2025-12-16 08:47:04,2025-12-16 11:33:04,Data Pipeline,Timeout,P2,Resolvido,166,240,0,Engenharia,Service Desk,3
+570,2025-12-16 15:54:21,2025-12-16 17:26:21,E-commerce,Timeout,P3,Resolvido,92,480,0,Engenharia,Service Desk,2
+571,2025-12-16 20:06:18,2025-12-16 21:42:18,E-commerce,Fila/Backlog,P3,Resolvido,96,480,0,Dados,Prometheus,2
+572,2025-12-17 02:01:07,2025-12-17 04:34:07,ERP,Indisponibilidade,P2,Resolvido,153,240,0,Dados,Cliente,3
+573,2025-12-17 06:53:24,2025-12-17 08:14:24,ERP,Fila/Backlog,P3,Resolvido,81,480,0,Engenharia,Zabbix,2
+574,2025-12-17 10:17:08,,BI/Analytics,Incidente de Rede,P2,Aguardando fornecedor,131,240,0,Engenharia,Grafana Alert,3
+575,2025-12-17 11:36:59,2025-12-17 13:49:59,CRM,Indisponibilidade,P2,Resolvido,133,240,0,Engenharia,Cliente,3
+576,2025-12-18 11:53:06,,Data Pipeline,Erro de autenticação,P3,Em andamento,83,480,0,Produto,Prometheus,2
+577,2025-12-18 16:40:09,2025-12-18 17:54:09,API Gateway,Erro de autenticação,P3,Resolvido,74,480,0,Engenharia,Cliente,2
+578,2025-12-18 18:07:20,2025-12-18 18:53:20,API Gateway,Incidente de Rede,P4,Resolvido,46,720,0,Operações,Zabbix,1
+579,2025-12-18 21:29:07,2025-12-19 00:18:07,Data Pipeline,Erro 5xx,P2,Resolvido,169,240,0,Engenharia,Grafana Alert,3
+580,2025-12-18 23:10:05,,E-commerce,Erro de autenticação,P4,Em andamento,52,720,0,Dados,Zabbix,1
+581,2025-12-18 23:18:27,2025-12-19 00:34:27,BI/Analytics,Timeout,P3,Resolvido,76,480,0,Operações,Service Desk,2
+582,2025-12-19 02:21:06,2025-12-19 03:01:06,Email,Indisponibilidade,P4,Resolvido,40,720,0,Engenharia,Cliente,1
+583,2025-12-19 06:28:19,2025-12-19 07:12:19,Rede/VPN,Falha de Job,P4,Resolvido,44,720,0,Dados,Cliente,1
+584,2025-12-19 06:59:47,2025-12-19 09:26:47,API Gateway,Falha de Job,P2,Resolvido,147,240,0,Operações,Synthetic Monitor,3
+585,2025-12-19 10:39:46,2025-12-19 11:56:46,E-commerce,Timeout,P3,Resolvido,77,480,0,Engenharia,Service Desk,2
+586,2025-12-19 10:59:28,2025-12-19 13:09:28,BI/Analytics,Timeout,P2,Resolvido,130,240,0,Dados,Service Desk,3
+587,2025-12-20 11:07:01,2025-12-20 12:21:01,CRM,Timeout,P3,Resolvido,74,480,0,Dados,Service Desk,2
+588,2025-12-20 18:50:08,2025-12-20 20:03:08,ERP,Falha de Job,P3,Resolvido,73,480,0,Operações,Synthetic Monitor,2
+589,2025-12-21 01:48:27,2025-12-21 04:03:27,CRM,Incidente de Rede,P2,Resolvido,135,240,0,Operações,Service Desk,3
+590,2025-12-21 05:50:43,2025-12-21 06:34:43,Email,Erro de autenticação,P4,Resolvido,44,720,0,Engenharia,Cliente,1
+591,2025-12-21 06:07:28,,Data Pipeline,Erro de autenticação,P1,Em andamento,319,180,1,Operações,Prometheus,5
+592,2025-12-21 16:14:58,,Email,Timeout,P3,Em andamento,67,480,0,Operações,Grafana Alert,2
+593,2025-12-21 17:27:52,2025-12-21 18:28:52,Email,Lentidão,P3,Resolvido,61,480,0,Operações,Service Desk,2
+594,2025-12-22 18:40:20,2025-12-22 23:32:20,E-commerce,Falha de Job,P1,Resolvido,292,180,1,Operações,Prometheus,5
+595,2025-12-23 17:41:33,2025-12-23 18:55:33,BI/Analytics,Falha de Job,P3,Resolvido,74,480,0,Engenharia,Prometheus,2
+596,2025-12-23 21:01:57,2025-12-23 22:18:57,API Gateway,Timeout,P3,Resolvido,77,480,0,Engenharia,Synthetic Monitor,2
+597,2025-12-23 23:26:12,2025-12-24 04:34:12,Rede/VPN,Erro 5xx,P1,Resolvido,308,180,1,Engenharia,Grafana Alert,5
+598,2025-12-24 07:07:12,2025-12-24 08:40:12,ERP,Erro 5xx,P3,Resolvido,93,480,0,Engenharia,Prometheus,2
+599,2025-12-24 14:01:33,,BI/Analytics,Erro de autenticação,P2,Aguardando fornecedor,131,240,0,Produto,Prometheus,3
+600,2025-12-24 21:46:44,2025-12-24 22:58:44,CRM,Timeout,P3,Resolvido,72,480,0,Operações,Grafana Alert,2
+601,2025-12-25 05:31:31,,ERP,Falha de Job,P1,Em andamento,270,180,1,Operações,Service Desk,5
+602,2025-12-25 07:13:46,2025-12-25 08:03:46,API Gateway,Timeout,P4,Resolvido,50,720,0,Operações,Synthetic Monitor,1
+603,2025-12-25 11:30:49,2025-12-25 12:18:49,E-commerce,Incidente de Rede,P4,Resolvido,48,720,0,Operações,Synthetic Monitor,1
+604,2025-12-25 12:20:21,2025-12-25 14:56:21,E-commerce,Incidente de Rede,P2,Resolvido,156,240,0,Operações,Service Desk,3
+605,2025-12-25 18:08:07,2025-12-25 20:44:07,Rede/VPN,Timeout,P2,Resolvido,156,240,0,Operações,Service Desk,3
+606,2025-12-25 18:40:00,2025-12-25 19:56:00,API Gateway,Erro 5xx,P3,Resolvido,76,480,0,Operações,Prometheus,2
+607,2025-12-26 03:21:17,2025-12-26 04:40:17,BI/Analytics,Fila/Backlog,P3,Resolvido,79,480,0,Engenharia,Cliente,2
+608,2025-12-26 07:49:45,2025-12-26 09:13:45,CRM,Erro de autenticação,P3,Resolvido,84,480,0,Engenharia,Prometheus,2
+609,2025-12-26 16:58:32,2025-12-26 19:41:32,Rede/VPN,Timeout,P2,Resolvido,163,240,0,Dados,Zabbix,3
+610,2025-12-27 00:00:13,2025-12-27 04:42:13,API Gateway,Falha de Job,P1,Resolvido,282,180,1,Engenharia,Synthetic Monitor,5
+611,2025-12-27 02:33:54,2025-12-27 03:22:54,Rede/VPN,Erro 5xx,P4,Resolvido,49,720,0,Engenharia,Cliente,1
+612,2025-12-27 13:23:14,,Data Pipeline,Fila/Backlog,P3,Em andamento,112,480,0,Operações,Prometheus,2
+613,2025-12-27 15:25:17,2025-12-27 16:10:17,API Gateway,Indisponibilidade,P4,Resolvido,45,720,0,Engenharia,Service Desk,1
+614,2025-12-28 08:35:24,2025-12-28 09:59:24,BI/Analytics,Timeout,P3,Resolvido,84,480,0,Operações,Grafana Alert,2
+615,2025-12-28 14:02:21,2025-12-28 14:39:21,CRM,Erro de autenticação,P4,Resolvido,37,720,0,Produto,Prometheus,1
+616,2025-12-28 16:05:06,2025-12-28 21:03:06,E-commerce,Erro de autenticação,P1,Resolvido,298,180,1,Produto,Prometheus,5
+617,2025-12-28 17:27:06,,Rede/VPN,Fila/Backlog,P1,Aguardando fornecedor,314,180,1,Produto,Zabbix,5
+618,2025-12-28 20:07:51,2025-12-28 20:46:51,Email,Lentidão,P4,Resolvido,39,720,0,Operações,Service Desk,1
+619,2025-12-29 00:43:07,2025-12-29 01:23:07,ERP,Fila/Backlog,P4,Resolvido,40,720,0,Engenharia,Grafana Alert,1
+620,2025-12-29 01:04:06,2025-12-29 03:29:06,API Gateway,Timeout,P2,Resolvido,145,240,0,Engenharia,Service Desk,3
+621,2025-12-29 03:05:57,2025-12-29 05:27:57,BI/Analytics,Erro 5xx,P2,Resolvido,142,240,0,Engenharia,Prometheus,3
+622,2025-12-29 07:46:03,2025-12-29 09:19:03,Rede/VPN,Lentidão,P3,Resolvido,93,480,0,Engenharia,Synthetic Monitor,2
+623,2025-12-29 13:39:03,2025-12-29 15:03:03,BI/Analytics,Erro de autenticação,P3,Resolvido,84,480,0,Engenharia,Service Desk,2
+624,2025-12-29 14:16:11,2025-12-29 17:17:11,Data Pipeline,Lentidão,P2,Resolvido,181,240,0,Operações,Cliente,3
+625,2025-12-29 20:44:42,2025-12-29 21:32:42,Rede/VPN,Erro 5xx,P4,Resolvido,48,720,0,Engenharia,Zabbix,1
+626,2025-12-29 22:04:46,2025-12-30 00:13:46,CRM,Timeout,P2,Resolvido,129,240,0,Engenharia,Service Desk,3
+627,2025-12-30 01:33:46,2025-12-30 02:56:46,BI/Analytics,Indisponibilidade,P3,Resolvido,83,480,0,Operações,Cliente,2
+628,2025-12-30 08:12:08,,CRM,Timeout,P1,Em andamento,254,180,1,Operações,Prometheus,5
+629,2025-12-30 08:48:21,2025-12-30 13:54:21,Rede/VPN,Lentidão,P1,Resolvido,306,180,1,Dados,Prometheus,5
+630,2025-12-30 13:23:01,2025-12-30 14:38:01,API Gateway,Incidente de Rede,P3,Resolvido,75,480,0,Engenharia,Prometheus,2
+631,2025-12-30 13:35:41,,Data Pipeline,Timeout,P2,Em andamento,169,240,0,Produto,Prometheus,3
+632,2025-12-31 01:11:18,2025-12-31 02:35:18,Rede/VPN,Erro 5xx,P3,Resolvido,84,480,0,Engenharia,Grafana Alert,2
+633,2025-12-31 21:28:55,2026-01-01 02:50:55,Data Pipeline,Fila/Backlog,P1,Resolvido,322,180,1,Produto,Prometheus,5
+634,2025-12-31 22:02:34,2025-12-31 22:51:34,BI/Analytics,Indisponibilidade,P4,Resolvido,49,720,0,Produto,Prometheus,1
+635,2026-01-01 02:06:52,,API Gateway,Indisponibilidade,P3,Cancelado,84,480,0,Operações,Service Desk,2
+636,2026-01-01 10:04:24,2026-01-01 11:01:24,Rede/VPN,Incidente de Rede,P4,Resolvido,57,720,0,Produto,Zabbix,1
+637,2026-01-01 11:11:57,2026-01-01 13:15:57,CRM,Falha de Job,P2,Resolvido,124,240,0,Engenharia,Prometheus,3
+638,2026-01-01 11:48:04,2026-01-01 14:17:04,API Gateway,Lentidão,P2,Resolvido,149,240,0,Operações,Service Desk,3
+639,2026-01-01 14:20:45,2026-01-01 16:52:45,API Gateway,Erro 5xx,P2,Resolvido,152,240,0,Engenharia,Zabbix,3
+640,2026-01-01 20:40:39,2026-01-01 21:57:39,E-commerce,Lentidão,P3,Resolvido,77,480,0,Operações,Prometheus,2
+641,2026-01-01 20:49:10,2026-01-01 23:08:10,ERP,Erro de autenticação,P2,Resolvido,139,240,0,Engenharia,Prometheus,3
+642,2026-01-02 10:11:40,,Rede/VPN,Erro 5xx,P1,Aguardando fornecedor,307,180,1,Engenharia,Zabbix,5
+643,2026-01-02 18:16:41,2026-01-02 20:56:41,Rede/VPN,Erro 5xx,P2,Resolvido,160,240,0,Engenharia,Grafana Alert,3
+644,2026-01-02 19:19:23,2026-01-02 22:12:23,Rede/VPN,Fila/Backlog,P2,Resolvido,173,240,0,Engenharia,Zabbix,3
+645,2026-01-03 01:40:48,2026-01-03 04:19:48,ERP,Lentidão,P2,Resolvido,159,240,0,Dados,Prometheus,3
+646,2026-01-03 07:40:05,,CRM,Incidente de Rede,P2,Aguardando fornecedor,127,240,0,Engenharia,Synthetic Monitor,3
+647,2026-01-03 13:21:55,2026-01-03 15:58:55,E-commerce,Timeout,P2,Resolvido,157,240,0,Engenharia,Synthetic Monitor,3
+648,2026-01-03 14:40:53,2026-01-03 15:47:53,Email,Falha de Job,P3,Resolvido,67,480,0,Engenharia,Prometheus,2
+649,2026-01-03 14:51:13,,BI/Analytics,Lentidão,P2,Em andamento,138,240,0,Operações,Prometheus,3
+650,2026-01-03 16:55:40,2026-01-03 19:31:40,E-commerce,Timeout,P2,Resolvido,156,240,0,Operações,Grafana Alert,3
+651,2026-01-03 17:40:41,,Rede/VPN,Falha de Job,P3,Em andamento,87,480,0,Produto,Cliente,2
+652,2026-01-04 08:42:09,2026-01-04 10:17:09,E-commerce,Lentidão,P3,Resolvido,95,480,0,Operações,Cliente,2
+653,2026-01-04 12:20:39,2026-01-04 14:37:39,CRM,Falha de Job,P2,Resolvido,137,240,0,Produto,Zabbix,3
+654,2026-01-04 14:37:22,,E-commerce,Erro 5xx,P3,Em andamento,78,480,0,Produto,Zabbix,2
+655,2026-01-05 20:27:55,2026-01-05 21:12:55,CRM,Falha de Job,P4,Resolvido,45,720,0,Engenharia,Grafana Alert,1
+656,2026-01-06 10:39:17,2026-01-06 12:10:17,Rede/VPN,Erro de autenticação,P3,Resolvido,91,480,0,Operações,Cliente,2
+657,2026-01-06 13:41:32,2026-01-06 14:24:32,BI/Analytics,Falha de Job,P4,Resolvido,43,720,0,Engenharia,Cliente,1
+658,2026-01-07 15:05:00,2026-01-07 16:35:00,E-commerce,Lentidão,P3,Resolvido,90,480,0,Produto,Zabbix,2
+659,2026-01-07 21:08:11,2026-01-08 02:31:11,Data Pipeline,Erro de autenticação,P1,Resolvido,323,180,1,Engenharia,Service Desk,5
+660,2026-01-08 07:43:48,2026-01-08 09:09:48,Rede/VPN,Erro 5xx,P3,Resolvido,86,480,0,Operações,Zabbix,2
+661,2026-01-08 11:49:28,2026-01-08 13:03:28,BI/Analytics,Lentidão,P3,Resolvido,74,480,0,Produto,Service Desk,2
+662,2026-01-08 14:54:39,2026-01-08 15:37:39,Data Pipeline,Erro 5xx,P4,Resolvido,43,720,0,Operações,Synthetic Monitor,1
+663,2026-01-08 15:28:24,2026-01-08 16:50:24,E-commerce,Erro de autenticação,P3,Resolvido,82,480,0,Engenharia,Grafana Alert,2
+664,2026-01-08 16:47:36,,Data Pipeline,Lentidão,P1,Em andamento,319,180,1,Operações,Zabbix,5
+665,2026-01-09 00:15:01,2026-01-09 01:21:01,CRM,Timeout,P3,Resolvido,66,480,0,Dados,Service Desk,2
+666,2026-01-09 03:31:01,2026-01-09 05:57:01,BI/Analytics,Fila/Backlog,P2,Resolvido,146,240,0,Operações,Grafana Alert,3
+667,2026-01-09 10:15:30,2026-01-09 11:37:30,API Gateway,Falha de Job,P3,Resolvido,82,480,0,Engenharia,Cliente,2
+668,2026-01-09 12:16:09,2026-01-09 13:41:09,Rede/VPN,Timeout,P3,Resolvido,85,480,0,Operações,Prometheus,2
+669,2026-01-09 18:58:30,2026-01-09 20:12:30,ERP,Lentidão,P3,Resolvido,74,480,0,Engenharia,Cliente,2
+670,2026-01-09 19:38:07,2026-01-09 20:24:07,API Gateway,Indisponibilidade,P4,Resolvido,46,720,0,Produto,Prometheus,1
+671,2026-01-10 02:01:21,2026-01-10 03:20:21,BI/Analytics,Erro de autenticação,P3,Resolvido,79,480,0,Produto,Zabbix,2
+672,2026-01-10 04:21:07,,Data Pipeline,Erro de autenticação,P3,Aguardando fornecedor,85,480,0,Operações,Prometheus,2
+673,2026-01-10 04:40:41,,API Gateway,Lentidão,P3,Em andamento,79,480,0,Operações,Zabbix,2
+674,2026-01-10 08:41:50,2026-01-10 09:28:50,BI/Analytics,Falha de Job,P4,Resolvido,47,720,0,Operações,Prometheus,1
+675,2026-01-10 10:01:59,,BI/Analytics,Fila/Backlog,P4,Em andamento,35,720,0,Dados,Service Desk,1
+676,2026-01-11 05:08:44,,CRM,Timeout,P1,Em andamento,250,180,1,Produto,Zabbix,5
+677,2026-01-11 19:43:05,2026-01-11 21:09:05,Data Pipeline,Indisponibilidade,P3,Resolvido,86,480,0,Operações,Zabbix,2
+678,2026-01-12 01:32:18,2026-01-12 03:59:18,API Gateway,Falha de Job,P2,Resolvido,147,240,0,Dados,Zabbix,3
+679,2026-01-12 01:53:17,2026-01-12 02:38:17,Rede/VPN,Lentidão,P4,Resolvido,45,720,0,Operações,Zabbix,1
+680,2026-01-12 06:32:25,2026-01-12 07:43:25,CRM,Erro de autenticação,P3,Resolvido,71,480,0,Produto,Cliente,2
+681,2026-01-12 17:01:31,2026-01-12 18:39:31,E-commerce,Erro de autenticação,P3,Resolvido,98,480,0,Engenharia,Synthetic Monitor,2
+682,2026-01-13 01:12:23,2026-01-13 03:27:23,BI/Analytics,Falha de Job,P2,Resolvido,135,240,0,Dados,Zabbix,3
+683,2026-01-13 04:32:18,2026-01-13 06:50:18,BI/Analytics,Erro 5xx,P2,Resolvido,138,240,0,Engenharia,Service Desk,3
+684,2026-01-13 08:24:13,,Email,Lentidão,P3,Em andamento,81,480,0,Produto,Service Desk,2
+685,2026-01-13 11:58:55,2026-01-13 14:12:55,BI/Analytics,Erro 5xx,P2,Resolvido,134,240,0,Dados,Synthetic Monitor,3
+686,2026-01-13 20:47:05,2026-01-14 02:12:05,Rede/VPN,Erro 5xx,P1,Resolvido,325,180,1,Operações,Prometheus,5
+687,2026-01-14 03:33:47,2026-01-14 04:10:47,Email,Lentidão,P4,Resolvido,37,720,0,Dados,Prometheus,1
+688,2026-01-14 07:46:17,2026-01-14 09:04:17,Email,Lentidão,P3,Resolvido,78,480,0,Engenharia,Grafana Alert,2
+689,2026-01-14 11:06:03,2026-01-14 13:39:03,API Gateway,Lentidão,P2,Resolvido,153,240,0,Dados,Cliente,3
+690,2026-01-14 23:44:53,,API Gateway,Erro de autenticação,P2,Em andamento,150,240,0,Operações,Service Desk,3
+691,2026-01-15 04:08:00,,E-commerce,Erro 5xx,P4,Em andamento,46,720,0,Operações,Grafana Alert,1
+692,2026-01-15 09:05:07,,Rede/VPN,Erro de autenticação,P3,Em andamento,82,480,0,Engenharia,Prometheus,2
+693,2026-01-15 12:22:31,,CRM,Timeout,P3,Em andamento,70,480,0,Engenharia,Service Desk,2
+694,2026-01-15 17:37:41,,E-commerce,Lentidão,P2,Aguardando fornecedor,160,240,0,Engenharia,Cliente,3
+695,2026-01-15 22:57:42,2026-01-16 01:43:42,Data Pipeline,Incidente de Rede,P2,Resolvido,166,240,0,Dados,Grafana Alert,3
+696,2026-01-16 02:57:57,2026-01-16 07:42:57,API Gateway,Falha de Job,P1,Resolvido,285,180,1,Engenharia,Service Desk,5
+697,2026-01-16 04:40:23,2026-01-16 06:01:23,E-commerce,Lentidão,P3,Resolvido,81,480,0,Operações,Grafana Alert,2
+698,2026-01-16 16:29:01,2026-01-16 20:21:01,Email,Erro 5xx,P1,Resolvido,232,180,1,Produto,Grafana Alert,5
+699,2026-01-17 12:30:08,2026-01-17 17:00:08,BI/Analytics,Lentidão,P1,Resolvido,270,180,1,Operações,Service Desk,5
+700,2026-01-18 06:11:16,2026-01-18 07:30:16,E-commerce,Erro 5xx,P3,Resolvido,79,480,0,Operações,Service Desk,2
+701,2026-01-18 07:34:13,,ERP,Erro 5xx,P4,Aguardando fornecedor,40,720,0,Operações,Synthetic Monitor,1
+702,2026-01-19 21:33:41,2026-01-19 22:45:41,CRM,Lentidão,P3,Resolvido,72,480,0,Engenharia,Grafana Alert,2
+703,2026-01-20 00:01:39,,Email,Indisponibilidade,P3,Aguardando fornecedor,75,480,0,Engenharia,Prometheus,2
+704,2026-01-20 16:20:29,2026-01-20 17:32:29,Email,Erro de autenticação,P3,Resolvido,72,480,0,Engenharia,Grafana Alert,2
+705,2026-01-21 12:55:45,2026-01-21 14:12:45,E-commerce,Timeout,P3,Resolvido,77,480,0,Produto,Zabbix,2
+706,2026-01-22 14:53:44,2026-01-22 16:50:44,Email,Erro 5xx,P2,Resolvido,117,240,0,Engenharia,Prometheus,3
+707,2026-01-22 23:46:14,2026-01-23 00:58:14,ERP,Falha de Job,P3,Resolvido,72,480,0,Engenharia,Zabbix,2
+708,2026-01-23 06:36:04,2026-01-23 07:54:04,API Gateway,Erro 5xx,P3,Resolvido,78,480,0,Dados,Grafana Alert,2
+709,2026-01-23 15:55:57,2026-01-23 17:20:57,BI/Analytics,Incidente de Rede,P3,Resolvido,85,480,0,Engenharia,Zabbix,2
+710,2026-01-23 20:51:32,,E-commerce,Lentidão,P4,Aguardando fornecedor,41,720,0,Engenharia,Prometheus,1
+711,2026-01-23 22:09:46,2026-01-23 22:49:46,E-commerce,Fila/Backlog,P4,Resolvido,40,720,0,Engenharia,Cliente,1
+712,2026-01-24 04:53:54,2026-01-24 09:36:54,API Gateway,Falha de Job,P1,Resolvido,283,180,1,Produto,Prometheus,5
+713,2026-01-24 06:42:39,2026-01-24 09:30:39,Data Pipeline,Indisponibilidade,P2,Resolvido,168,240,0,Dados,Service Desk,3
+714,2026-01-24 07:16:23,2026-01-24 09:36:23,BI/Analytics,Incidente de Rede,P2,Resolvido,140,240,0,Produto,Synthetic Monitor,3
+715,2026-01-24 21:49:23,2026-01-25 00:07:23,BI/Analytics,Erro 5xx,P2,Resolvido,138,240,0,Produto,Service Desk,3
+716,2026-01-25 08:33:06,2026-01-25 11:03:06,ERP,Erro de autenticação,P2,Resolvido,150,240,0,Operações,Prometheus,3
+717,2026-01-25 10:06:17,2026-01-25 12:34:17,E-commerce,Timeout,P2,Resolvido,148,240,0,Engenharia,Prometheus,3
+718,2026-01-25 22:39:41,2026-01-25 23:51:41,Email,Timeout,P3,Resolvido,72,480,0,Engenharia,Service Desk,2
+719,2026-01-26 09:41:24,2026-01-26 10:50:24,CRM,Indisponibilidade,P3,Resolvido,69,480,0,Engenharia,Service Desk,2
+720,2026-01-26 09:58:21,2026-01-26 10:44:21,BI/Analytics,Falha de Job,P4,Resolvido,46,720,0,Produto,Zabbix,1
+721,2026-01-27 02:00:11,2026-01-27 07:05:11,Rede/VPN,Fila/Backlog,P1,Resolvido,305,180,1,Operações,Grafana Alert,5
+722,2026-01-27 02:01:23,2026-01-27 06:35:23,ERP,Incidente de Rede,P1,Resolvido,274,180,1,Dados,Service Desk,5
+723,2026-01-27 18:58:38,2026-01-27 20:03:38,Email,Erro de autenticação,P3,Resolvido,65,480,0,Operações,Prometheus,2
+724,2026-01-29 08:12:22,2026-01-29 13:18:22,E-commerce,Fila/Backlog,P1,Resolvido,306,180,1,Dados,Service Desk,5
+725,2026-01-29 12:21:14,2026-01-29 14:44:14,API Gateway,Erro de autenticação,P2,Resolvido,143,240,0,Operações,Zabbix,3
+726,2026-01-29 14:13:32,2026-01-29 15:02:32,Data Pipeline,Incidente de Rede,P4,Resolvido,49,720,0,Engenharia,Prometheus,1
+727,2026-01-29 21:29:13,2026-01-30 00:11:13,Data Pipeline,Falha de Job,P2,Resolvido,162,240,0,Engenharia,Cliente,3
+728,2026-01-30 04:39:30,2026-01-30 07:22:30,Rede/VPN,Incidente de Rede,P2,Resolvido,163,240,0,Engenharia,Prometheus,3
+729,2026-01-30 11:12:56,2026-01-30 12:42:56,Rede/VPN,Fila/Backlog,P3,Resolvido,90,480,0,Operações,Service Desk,2
+730,2026-01-30 15:57:48,,BI/Analytics,Falha de Job,P3,Aguardando fornecedor,82,480,0,Dados,Grafana Alert,2
+731,2026-01-30 19:35:58,2026-01-30 20:46:58,BI/Analytics,Erro 5xx,P3,Resolvido,71,480,0,Engenharia,Prometheus,2
+732,2026-01-31 00:38:06,,Data Pipeline,Erro de autenticação,P2,Em andamento,172,240,0,Engenharia,Synthetic Monitor,3
+733,2026-01-31 05:16:44,2026-01-31 06:09:44,ERP,Falha de Job,P4,Resolvido,53,720,0,Engenharia,Prometheus,1
+734,2026-01-31 13:19:59,2026-01-31 15:53:59,Rede/VPN,Indisponibilidade,P2,Resolvido,154,240,0,Operações,Prometheus,3
+735,2026-01-31 13:31:10,2026-01-31 14:48:10,BI/Analytics,Timeout,P3,Resolvido,77,480,0,Produto,Synthetic Monitor,2
+736,2026-01-31 15:04:07,2026-01-31 16:20:07,CRM,Indisponibilidade,P3,Resolvido,76,480,0,Operações,Service Desk,2
+737,2026-01-31 18:57:04,,API Gateway,Fila/Backlog,P4,Em andamento,43,720,0,Operações,Service Desk,1
+738,2026-01-31 22:35:50,2026-02-01 00:58:50,API Gateway,Erro de autenticação,P2,Resolvido,143,240,0,Engenharia,Zabbix,3
+739,2026-02-01 00:13:38,2026-02-01 01:35:38,ERP,Erro de autenticação,P3,Resolvido,82,480,0,Produto,Zabbix,2
+740,2026-02-01 04:19:59,2026-02-01 09:24:59,Rede/VPN,Erro de autenticação,P1,Resolvido,305,180,1,Operações,Service Desk,5
+741,2026-02-01 04:40:05,2026-02-01 06:49:05,CRM,Erro de autenticação,P2,Resolvido,129,240,0,Operações,Prometheus,3
+742,2026-02-02 01:07:24,2026-02-02 04:53:24,Email,Erro de autenticação,P1,Resolvido,226,180,1,Operações,Prometheus,5
+743,2026-02-02 01:52:34,,Email,Erro de autenticação,P3,Cancelado,68,480,0,Operações,Service Desk,2
+744,2026-02-02 11:04:23,2026-02-02 12:59:23,Email,Fila/Backlog,P2,Resolvido,115,240,0,Engenharia,Prometheus,3
+745,2026-02-02 12:11:25,,API Gateway,Falha de Job,P3,Em andamento,76,480,0,Operações,Zabbix,2
+746,2026-02-02 18:35:09,2026-02-02 22:46:09,CRM,Fila/Backlog,P1,Resolvido,251,180,1,Dados,Zabbix,5
+747,2026-02-03 03:18:46,2026-02-03 04:12:46,Rede/VPN,Timeout,P4,Resolvido,54,720,0,Operações,Grafana Alert,1
+748,2026-02-03 03:53:26,2026-02-03 04:51:26,Email,Falha de Job,P4,Resolvido,58,720,0,Operações,Service Desk,1
+749,2026-02-03 04:21:27,,Data Pipeline,Incidente de Rede,P1,Em andamento,317,180,1,Dados,Cliente,5
+750,2026-02-03 04:25:38,2026-02-03 08:49:38,BI/Analytics,Indisponibilidade,P1,Resolvido,264,180,1,Operações,Zabbix,5
+751,2026-02-03 08:10:32,2026-02-03 13:04:32,E-commerce,Timeout,P1,Resolvido,294,180,1,Produto,Prometheus,5
+752,2026-02-03 13:49:03,2026-02-03 14:37:03,BI/Analytics,Lentidão,P4,Resolvido,48,720,0,Dados,Service Desk,1
+753,2026-02-03 15:04:12,2026-02-03 17:22:12,ERP,Lentidão,P2,Resolvido,138,240,0,Dados,Grafana Alert,3
+754,2026-02-03 19:01:21,2026-02-03 20:20:21,E-commerce,Falha de Job,P3,Resolvido,79,480,0,Engenharia,Grafana Alert,2
+755,2026-02-04 03:37:27,2026-02-04 05:02:27,Data Pipeline,Indisponibilidade,P3,Resolvido,85,480,0,Operações,Synthetic Monitor,2
+756,2026-02-05 11:28:43,2026-02-05 12:44:43,ERP,Falha de Job,P3,Resolvido,76,480,0,Engenharia,Service Desk,2
+757,2026-02-05 20:58:07,2026-02-05 22:16:07,ERP,Falha de Job,P3,Resolvido,78,480,0,Dados,Grafana Alert,2
+758,2026-02-06 03:08:45,2026-02-06 04:27:45,ERP,Incidente de Rede,P3,Resolvido,79,480,0,Dados,Synthetic Monitor,2
+759,2026-02-06 03:14:27,,API Gateway,Timeout,P4,Em andamento,44,720,0,Operações,Zabbix,1
+760,2026-02-06 04:24:00,2026-02-06 06:17:00,Email,Falha de Job,P2,Resolvido,113,240,0,Produto,Synthetic Monitor,3
+761,2026-02-06 16:15:06,,ERP,Indisponibilidade,P4,Cancelado,47,720,0,Operações,Service Desk,1
+762,2026-02-06 23:34:54,,Rede/VPN,Incidente de Rede,P1,Aguardando fornecedor,310,180,1,Operações,Service Desk,5
+763,2026-02-07 01:44:37,2026-02-07 02:56:37,Email,Lentidão,P3,Resolvido,72,480,0,Engenharia,Synthetic Monitor,2
+764,2026-02-07 06:36:26,2026-02-07 07:19:26,E-commerce,Erro 5xx,P4,Resolvido,43,720,0,Operações,Service Desk,1
+765,2026-02-07 16:54:37,2026-02-07 18:10:37,E-commerce,Lentidão,P3,Resolvido,76,480,0,Operações,Grafana Alert,2
+766,2026-02-08 09:15:27,2026-02-08 10:28:27,BI/Analytics,Erro de autenticação,P3,Resolvido,73,480,0,Operações,Prometheus,2
+767,2026-02-08 11:02:42,2026-02-08 13:09:42,Email,Timeout,P2,Resolvido,127,240,0,Produto,Service Desk,3
+768,2026-02-08 12:30:38,2026-02-08 13:59:38,Data Pipeline,Erro 5xx,P3,Resolvido,89,480,0,Operações,Service Desk,2
+769,2026-02-08 15:34:05,2026-02-08 17:31:05,Email,Falha de Job,P2,Resolvido,117,240,0,Produto,Prometheus,3
+770,2026-02-08 16:56:15,2026-02-08 18:08:15,ERP,Fila/Backlog,P3,Resolvido,72,480,0,Operações,Service Desk,2
+771,2026-02-08 18:51:49,,API Gateway,Timeout,P3,Cancelado,93,480,0,Dados,Service Desk,2
+772,2026-02-08 20:01:30,2026-02-08 22:37:30,Rede/VPN,Incidente de Rede,P2,Resolvido,156,240,0,Operações,Grafana Alert,3
+773,2026-02-09 00:30:19,2026-02-09 03:01:19,E-commerce,Erro de autenticação,P2,Resolvido,151,240,0,Engenharia,Zabbix,3
+774,2026-02-09 03:50:46,,Email,Erro 5xx,P2,Cancelado,121,240,0,Operações,Grafana Alert,3
+775,2026-02-09 07:50:22,2026-02-09 10:30:22,Data Pipeline,Incidente de Rede,P2,Resolvido,160,240,0,Operações,Zabbix,3
+776,2026-02-09 11:09:49,2026-02-09 13:16:49,Email,Fila/Backlog,P2,Resolvido,127,240,0,Operações,Zabbix,3
+777,2026-02-10 03:58:45,,API Gateway,Fila/Backlog,P4,Em andamento,48,720,0,Operações,Grafana Alert,1
+778,2026-02-10 08:09:50,2026-02-10 09:25:50,CRM,Erro 5xx,P3,Resolvido,76,480,0,Operações,Zabbix,2
+779,2026-02-10 11:05:39,2026-02-10 13:42:39,E-commerce,Lentidão,P2,Resolvido,157,240,0,Produto,Prometheus,3
+780,2026-02-10 15:33:07,2026-02-10 16:54:07,E-commerce,Lentidão,P3,Resolvido,81,480,0,Engenharia,Service Desk,2
+781,2026-02-10 20:22:26,,Email,Lentidão,P4,Aguardando fornecedor,33,720,0,Operações,Prometheus,1
+782,2026-02-10 21:07:03,2026-02-10 23:28:03,ERP,Lentidão,P2,Resolvido,141,240,0,Produto,Synthetic Monitor,3
+783,2026-02-10 21:28:14,2026-02-10 23:46:14,ERP,Timeout,P2,Resolvido,138,240,0,Engenharia,Synthetic Monitor,3
+784,2026-02-11 04:50:47,2026-02-11 09:51:47,E-commerce,Indisponibilidade,P1,Resolvido,301,180,1,Operações,Service Desk,5
+785,2026-02-11 11:07:46,2026-02-11 16:10:46,E-commerce,Timeout,P1,Resolvido,303,180,1,Produto,Synthetic Monitor,5
+786,2026-02-11 18:20:06,2026-02-11 19:35:06,Email,Incidente de Rede,P3,Resolvido,75,480,0,Operações,Cliente,2
+787,2026-02-12 05:39:53,2026-02-12 06:26:53,API Gateway,Falha de Job,P4,Resolvido,47,720,0,Operações,Prometheus,1
+788,2026-02-12 08:15:54,,BI/Analytics,Erro de autenticação,P1,Em andamento,268,180,1,Produto,Service Desk,5
+789,2026-02-13 06:14:58,2026-02-13 07:35:58,E-commerce,Indisponibilidade,P3,Resolvido,81,480,0,Dados,Zabbix,2
+790,2026-02-13 23:53:14,2026-02-14 05:01:14,Rede/VPN,Falha de Job,P1,Resolvido,308,180,1,Dados,Service Desk,5
+791,2026-02-14 09:15:56,2026-02-14 10:37:56,API Gateway,Indisponibilidade,P3,Resolvido,82,480,0,Dados,Grafana Alert,2
+792,2026-02-14 21:33:51,2026-02-14 22:50:51,API Gateway,Timeout,P3,Resolvido,77,480,0,Produto,Zabbix,2
+793,2026-02-15 14:33:31,2026-02-15 16:50:31,BI/Analytics,Timeout,P2,Resolvido,137,240,0,Operações,Prometheus,3
+794,2026-02-16 00:01:09,2026-02-16 04:19:09,BI/Analytics,Lentidão,P1,Resolvido,258,180,1,Operações,Synthetic Monitor,5
+795,2026-02-16 05:32:49,2026-02-16 06:41:49,BI/Analytics,Timeout,P3,Resolvido,69,480,0,Operações,Prometheus,2
+796,2026-02-16 07:09:43,2026-02-16 07:59:43,E-commerce,Lentidão,P4,Resolvido,50,720,0,Operações,Prometheus,1
+797,2026-02-16 17:49:43,2026-02-16 20:29:43,E-commerce,Lentidão,P2,Resolvido,160,240,0,Operações,Prometheus,3
+798,2026-02-17 02:19:23,2026-02-17 04:55:23,Rede/VPN,Falha de Job,P2,Resolvido,156,240,0,Produto,Grafana Alert,3
+799,2026-02-17 05:24:07,2026-02-17 07:38:07,CRM,Incidente de Rede,P2,Resolvido,134,240,0,Operações,Cliente,3
+800,2026-02-17 13:01:08,,Rede/VPN,Erro 5xx,P3,Aguardando fornecedor,83,480,0,Operações,Service Desk,2
